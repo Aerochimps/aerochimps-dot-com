@@ -67,6 +67,7 @@
 						<li><a href="">Time</a></li>
 						<li><a href="">Projetos</a></li>
 						<li><a href="">Clientes</a></li>
+<<<<<<< HEAD
 						<li><a href="">Contato</a></li>
 					</ul>
 				</nav>
@@ -119,15 +120,38 @@ A bordo da Aerochimps, apresentamos soluções criativas e inovadoras, adequadas
 			</section> <!-- End .team -->
 
 			<section class="contact">
-				
+				<div id="contactFeedback"></div>
+				<form  id="contactForm" method="POST" action="contact.php">
+					<div>
+						<label>Nome</label>
+						<input type="text" name="name">
+					</div>
+					<div>
+						<label>Email</label>
+						<input type="text" name="email">
+					</div>
+					<div>
+						<label>Assunto</label>
+						<input type="text" name="subject">
+					</div>
+					<div>
+						<label>Mensagem</label>
+						<textarea name="message" ></textarea>
+					</div>
+					<div>
+						<input type="submit">
+					</div>
+				</form>
 			</section> <!-- End .contact -->
 
 		</section> <!-- End .content -->
 	</section> <!-- End .main -->
 
 	<!-- Scripts -->
-	<script type="text/javascript" src="http://bitbucket.org/mckamey/cssuseragent/raw/tip/cssua.min.js"></script>
+	<script src="http://bitbucket.org/mckamey/cssuseragent/raw/tip/cssua.min.js"></script>
 	<script src="bower_components/jquery/jquery.js"></script>
+	<script src="bower_components/jquery-validation/jquery.validate.js"></script>
 	<script src="js/app.js"></script>
+	<script src="js/contact.js"></script>
 </body>
 </html>
