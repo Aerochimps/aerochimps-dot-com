@@ -1,8 +1,26 @@
-/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
-/* zurb.com */
-/* humanstxt.org */
+/* TEAM */
+Your title: Marcela Quint
+Site: http://marcelaquint.com
+Twitter: @mpontas
+Location: Florianopolis, Brasil
+
+Your title: Idmar Ramos Junior
+Site: http://id.etc.br
+Twitter: @idmarjr
+Location: Florianopolis, Brasil
+
+Your title: Gustavo Maestri
+Site: http://gumaestri.com
+Twitter: @gumaestri
+Location: Florianopolis, Brasil
+
+
+/* THANKS */
+Name: Marília Alves: http://lilaalves.com
+
 
 /* SITE */
-  Standards: HTML5, CSS3
-  Components: jQuery, Orbit, Reveal
-  Software: Coda, Textmate, Git
+Last update: 2014/02
+Standards: HTML5, CSS3, JS, PHP
+Components jQuery
+Software: Panic Coda, Sublime Text 3, Photoshop
