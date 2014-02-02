@@ -1,1 +1,10 @@
-_site/
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+cakefile
+ignore.txt
+.DS_Store
