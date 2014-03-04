@@ -8,3 +8,6 @@
 cakefile
 ignore.txt
 .DS_Store
+
+# Sass Cache #
+.sass-cache
