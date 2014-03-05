@@ -1,4 +1,4 @@
-<section class="projects">
+<section class="projects hide">
 	<p class="intro">Destacamos os nossos principais <strong>projetos</strong> para que você nos conheça pelo o que fazemos de melhor.</p>
 
 	<section class="project aws">
