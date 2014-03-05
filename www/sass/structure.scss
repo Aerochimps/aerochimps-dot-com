@@ -162,7 +162,10 @@ strong {font-weight: bold;}
 /***********************************************************/
 /* .mainFooter */
 /***********************************************************/
-.mainFooter {margin-bottom: 30px;}
+.mainFooter {
+	padding-top: 25px;
+	margin-bottom: 30px;
+}
 
 .mainFooter img {
 	display: block;
