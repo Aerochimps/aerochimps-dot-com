@@ -2,7 +2,7 @@
 	<p class="intro">Somos um <strong>time</strong> de 3 amigos unidos pelo propósito de viver daquilo que gostamos.</p>
 	<div class="people marcela">
 		<figure>
-			<img src="img/team/cela.jpg" alt="Marcela Quint" width="610" height="404">
+			<img src="img/team/cela.jpg" alt="Marcela Quint" />
 		</figure>
 		<h3>Marcela Quint</h3>
 		<h4>UX Designer</h4>
@@ -13,7 +13,7 @@
 
 	<div class="people idmar">
 		<figure>
-			<img src="img/team/id.jpg" alt="Idmar Ramos Junior" width="521" height="521">
+			<img src="img/team/id.jpg" alt="Idmar Ramos Junior" />
 		</figure>
 		<h3>Id</h3>
 		<h4>FrontEnd Developer</h4>
@@ -24,10 +24,10 @@
 
 	<div class="people gustavo">
 		<figure>
-			<img src="img/team/gustavo.jpg" alt="Gustavo Maestri" width="672" height="635">
+			<img src="img/team/gustavo.jpg" alt="Gustavo Maestri" />
 		</figure>
 		<h3>Gustavo Maestri</h3>
-		<h4>FrontEnd Developer</h4>
+		<h4>backend developer</h4>
 		<div class="description">
 			<p>Formado em Ciência da Computação pela Unisul, trabalha há 13 anos com desenvolvimento de softwares. É especializado em software para web e domina as linguagens Java, Java para Android, JavaScript, Objective C e Lua. Sua função na Aerochimps é fazer girar a engrenagem para que tudo funcione como o planejado. Quando não está dominando o mundo dos códigos, aproveita para curtir a família e praticar esportes.</p>
 		</div><!-- End .description -->
