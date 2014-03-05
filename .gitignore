@@ -14,6 +14,7 @@ ignore.txt
 
 # Font Awesome ignored #
 /www/bower_components/font-awesome/.gitignore
+/www/bower_components/font-awesome/bower.json
 /www/bower_components/font-awesome/.bower.json
 /www/bower_components/font-awesome/src/
 /www/bower_components/font-awesome/less/
