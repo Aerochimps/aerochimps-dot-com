@@ -26,3 +26,23 @@ ignore.txt
 /www/bower_components/font-awesome/Gemfile.lock
 /www/bower_components/font-awesome/README.md
 /www/bower_components/font-awesome/package.json
+
+# html5shiv ignored #
+/www/bower_components/html5shiv/readme.md
+
+# jquery ignored #
+/www/bower_components/jquery/.bower.json
+/www/bower_components/jquery/MIT-LICENSE.txt
+/www/bower_components/jquery/src/
+
+# jquery-validation #
+/www/bower_components/jquery-validation/bower.json
+/www/bower_components/jquery-validation/changelog.txt
+/www/bower_components/jquery-validation/CONTRIBUTING.md
+/www/bower_components/jquery-validation/demo/
+/www/bower_components/jquery-validation/lib/
+/www/bower_components/jquery-validation/package.json
+/www/bower_components/jquery-validation/README.md
+/www/bower_components/jquery-validation/test/
+/www/bower_components/jquery-validation/todo
+/www/bower_components/jquery-validation/test/
