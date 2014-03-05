@@ -28,12 +28,14 @@ ignore.txt
 /www/bower_components/font-awesome/package.json
 
 # jquery ignored #
+/www/bower_components/jquery/bower.json
 /www/bower_components/jquery/.bower.json
 /www/bower_components/jquery/MIT-LICENSE.txt
 /www/bower_components/jquery/src/
 
 # jquery-validation #
 /www/bower_components/jquery-validation/bower.json
+/www/bower_components/jquery-validation/.bower.json
 /www/bower_components/jquery-validation/changelog.txt
 /www/bower_components/jquery-validation/CONTRIBUTING.md
 /www/bower_components/jquery-validation/demo/
