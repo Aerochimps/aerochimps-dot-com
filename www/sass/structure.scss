@@ -7,12 +7,40 @@
 /***********************************************************/
 .hide {display: none!important;}
 
+.vhide {
 	position: absolute !important;
+	width: 1px !important;
 	height: 1px !important;
 	border: 0 !important;
 	padding: 0 !important;
 	margin: -1px !important;
 	overflow: hidden !important;
 	clip: rect(0 0 0 0) !important;
+}
+
+/***********************************************************/
+/* General */
+/***********************************************************/
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 10pt;
+	color: rgba(65, 58, 54, 1);
+	background-color: rgba(255,255,255, 1);
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: rgba(25, 196, 186, 1);
+}
+
+strong {font-weight: bold;}
+
+.intro {
+	font-family: 'Roboto', sans-serif;
+	font-size: 40pt;
+	font-weight: 100;
+	font-style: italic;
+	line-height: 1.2em;
+	margin-bottom: 55px;
 }
 
