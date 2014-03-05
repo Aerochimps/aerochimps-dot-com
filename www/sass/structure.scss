@@ -78,3 +78,32 @@ strong {font-weight: bold;}
 	margin-top: 97px;
 }
 
+/***********************************************************/
+/* .chimps */
+/***********************************************************/
+.chimps .banner {
+	background-color: rgba(27, 197, 187, 1);
+	background-image: url("../img/stars.png");
+	padding: 40px 40px 70px 40px;
+	color: rgba(255,255,255, 1);
+}
+
+.chimps .banner h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 108pt;
+	font-weight: 100;
+	font-style: italic;
+	margin-bottom: 40px;
+	text-transform: lowercase;
+}
+
+.chimps .banner p {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 32pt;
+	font-weight: 300;
+	line-height: 1.2em;
+	margin-bottom: 20px;
+}
+
+.chimps .banner p:last-child {margin-bottom: 0;}
+
