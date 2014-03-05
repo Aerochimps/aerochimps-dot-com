@@ -11,3 +11,18 @@ ignore.txt
 
 # Sass Cache #
 .sass-cache
+
+# Font Awesome ignored #
+/www/bower_components/font-awesome/.gitignore
+/www/bower_components/font-awesome/.bower.json
+/www/bower_components/font-awesome/src/
+/www/bower_components/font-awesome/less/
+/www/bower_components/font-awesome/scss/
+/www/bower_components/font-awesome/_config.yml
+/www/bower_components/font-awesome/component.json
+/www/bower_components/font-awesome/composer.json
+/www/bower_components/font-awesome/CONTRIBUTING.md
+/www/bower_components/font-awesome/Gemfile
+/www/bower_components/font-awesome/Gemfile.lock
+/www/bower_components/font-awesome/README.md
+/www/bower_components/font-awesome/package.json

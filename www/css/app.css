@@ -5,6 +5,7 @@ Last Updated: 2010-09-17
 Author: Richard Clark - http://richclarkdesign.com 
 Twitter: @rich_clark
 */
+@import url(../bower_components/font-awesome/css/font-awesome.min.css);
 /* line 20, ../sass/reset.scss */
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -174,6 +175,8 @@ a:hover {
   box-sizing: border-box;
 }
 
+/* Plugins */
+/* What we do :) */
 /*********************************************************************/
 /* structure.css */
 /*********************************************************************/
