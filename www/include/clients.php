@@ -1,7 +1,7 @@
-<section id="clients" class="clients hide">
+<section id="clients" class="clients">
 	<p class="intro">Com <strong>clientes</strong> como esses, é fácil amar o que se faz.</p>
-	<ul class="">
-		<li><a href="#" target="_blank"><img src="img/v/amazon.png" alt="Amazon Web Services" /></a></li>
+	<ul class="cf">
+		<li><a href="#" target="_blank"><img src="img/clients/aws.png" alt="Amazon Web Services" /></a></li>
 		<li><a href="#" target="_blank"><img src="img/clients/astrea.png" alt="Astrea" /></a></li>
 		<li><a href="#" target="_blank"><img src="img/clients/compedi.png" alt="Compedi" /></a></li>
 		<li><a href="#" target="_blank"><img src="img/clients/coolendar.png" alt="Coolendar" /></a></li>

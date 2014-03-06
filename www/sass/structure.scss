@@ -253,6 +253,41 @@ strong {font-weight: bold;}
 .project.wayTwo .description p {color: rgba(255,255,255, 0.8);}
 
 /***********************************************************/
+/* clients */
+/***********************************************************/
+.clients {
+	padding: 40px 40px 70px 40px;
+}
+
+.clients ul li {
+	list-style: none;
+	width: 50%;
+	float: left;
+	border: 2px solid transparent;
+	overflow: hidden;
+}
+
+.clients ul li:nth-child(odd) {
+	border-right-color: rgba(0,0,0, 0.1);
+	border-bottom-color: rgba(0,0,0, 0.1);
+}
+
+.clients ul li:nth-child(even) {border-bottom-color: rgba(0,0,0, 0.1);}
+.clients ul li:last-child,
+.clients ul li:nth-last-child(2) {border-bottom-color: transparent;}
+
+.clients li img {
+	display: block;
+	width: 100%;
+}
+
+.clients li img:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+}
+
+/***********************************************************/
 /* .mainFooter */
 /***********************************************************/
 .mainFooter {
