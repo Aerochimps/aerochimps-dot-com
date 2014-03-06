@@ -254,28 +254,47 @@ strong {
   font-size: 28pt;
   font-weight: 300;
   line-height: 1.2em;
+  margin-bottom: 30px;
 }
 
-/* line 203, ../sass/structure.scss */
-.project .illustrate {
-  overflow: hidden;
+/* line 204, ../sass/structure.scss */
+.illustrate {
+  position: relative;
+}
+
+/* line 206, ../sass/structure.scss */
+.illustrate > figure {
   width: calc(100% + 40px);
+  overflow: hidden;
 }
 
-/* line 208, ../sass/structure.scss */
+/* line 211, ../sass/structure.scss */
 .project .illustrate img {
-  width: 100%;
+  display: block;
+}
+
+/********************************************/
+/* illustrate from odd itens */
+/********************************************/
+/* line 216, ../sass/structure.scss */
+.project:nth-child(odd) .illustrate {
+  left: -40px;
+}
+
+/* line 217, ../sass/structure.scss */
+.project:nth-child(odd) .illustrate img {
+  float: right;
 }
 
 /********************************************/
 /* .project.aws */
 /********************************************/
-/* line 213, ../sass/structure.scss */
+/* line 222, ../sass/structure.scss */
 .project.aws {
   background-color: #d1ee87;
 }
 
-/* line 219, ../sass/structure.scss */
+/* line 226, ../sass/structure.scss */
 .project.aws header h1,
 .project.aws header strong,
 .project.aws .description p {
@@ -285,12 +304,12 @@ strong {
 /********************************************/
 /* .project.astrea */
 /********************************************/
-/* line 224, ../sass/structure.scss */
+/* line 231, ../sass/structure.scss */
 .project.astrea {
   background-color: rgba(25, 50, 88, 0.8);
 }
 
-/* line 230, ../sass/structure.scss */
+/* line 235, ../sass/structure.scss */
 .project.astrea header h1,
 .project.astrea header strong,
 .project.astrea .description p {
@@ -300,12 +319,12 @@ strong {
 /********************************************/
 /* .project.spreadnet */
 /********************************************/
-/* line 235, ../sass/structure.scss */
+/* line 240, ../sass/structure.scss */
 .project.spreadnet {
   background-color: #404040;
 }
 
-/* line 241, ../sass/structure.scss */
+/* line 244, ../sass/structure.scss */
 .project.spreadnet header h1,
 .project.spreadnet header strong,
 .project.spreadnet .description p {
@@ -315,12 +334,12 @@ strong {
 /********************************************/
 /* .project.wayTwo */
 /********************************************/
-/* line 246, ../sass/structure.scss */
+/* line 249, ../sass/structure.scss */
 .project.wayTwo {
   background-color: #1674b9;
 }
 
-/* line 252, ../sass/structure.scss */
+/* line 253, ../sass/structure.scss */
 .project.wayTwo header h1,
 .project.wayTwo header strong,
 .project.wayTwo .description p {
@@ -328,15 +347,62 @@ strong {
 }
 
 /***********************************************************/
+/* clients */
+/***********************************************************/
+/* line 258, ../sass/structure.scss */
+.clients {
+  padding: 40px 40px 70px 40px;
+}
+
+/* line 262, ../sass/structure.scss */
+.clients ul li {
+  list-style: none;
+  width: 50%;
+  float: left;
+  border: 2px solid transparent;
+  overflow: hidden;
+}
+
+/* line 270, ../sass/structure.scss */
+.clients ul li:nth-child(odd) {
+  border-right-color: rgba(0, 0, 0, 0.1);
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+}
+
+/* line 275, ../sass/structure.scss */
+.clients ul li:nth-child(even) {
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+}
+
+/* line 277, ../sass/structure.scss */
+.clients ul li:last-child,
+.clients ul li:nth-last-child(2) {
+  border-bottom-color: transparent;
+}
+
+/* line 279, ../sass/structure.scss */
+.clients li img {
+  display: block;
+  width: 100%;
+}
+
+/* line 284, ../sass/structure.scss */
+.clients li img:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
+
+/***********************************************************/
 /* .mainFooter */
 /***********************************************************/
-/* line 257, ../sass/structure.scss */
+/* line 293, ../sass/structure.scss */
 .mainFooter {
   padding-top: 25px;
   margin-bottom: 30px;
 }
 
-/* line 262, ../sass/structure.scss */
+/* line 298, ../sass/structure.scss */
 .mainFooter img {
   display: block;
   width: 80px;
