@@ -1,4 +1,4 @@
-<section class="clients hide">
+<section id="clients" class="clients hide">
 	<p class="intro">Com <strong>clientes</strong> como esses, é fácil amar o que se faz.</p>
 	<ul class="">
 		<li><a href="#" target="_blank"><img src="img/v/amazon.png" alt="Amazon Web Services" /></a></li>

@@ -1,4 +1,4 @@
-<section class="team">
+<section id="team" class="team">
 	<p class="intro">Somos um <strong>time</strong> de 3 amigos unidos pelo propósito de viver daquilo que gostamos.</p>
 	<div class="people marcela">
 		<figure>

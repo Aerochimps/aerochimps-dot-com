@@ -1,4 +1,4 @@
-<section class="projects">
+<section id="projects" class="projects">
 	<p class="intro">Destacamos os nossos principais <strong>projetos</strong> para que você nos conheça pelo o que fazemos de melhor.</p>
 
 	<?php include("projects/aws.php"); ?>
