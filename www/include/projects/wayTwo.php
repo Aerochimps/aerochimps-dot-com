@@ -4,7 +4,8 @@
 		<strong>Web App</strong>
 	</header>
 	<div class="description">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Produzimos este aplicativo em parceria com a empresa de tecnologia Way2. Ele foi desenvolvido para usinas hidrelétricas e é destinado ao acompanhamento de informações por técnicos e engenheiros e à apresentação institucional. Pelo display, o usuário tem acesso aos números reais da geração de energia da usina. Esses números foram posicionados de forma a facilitar a leitura e compreensão dos dados pelo usuário.</p>
+		<p>Trabalhamos na concepção da solução e desenvolvimento de interface, projetada para monitores de pelo menos 32". </p>
 	</div><!-- End .description -->
 	<div class="illustrate">
 		<figure>

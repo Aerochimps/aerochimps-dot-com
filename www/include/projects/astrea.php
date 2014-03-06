@@ -4,7 +4,8 @@
 		<strong>Web app</strong>
 	</header>
 	<div class="description">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Criado para facilitar a vida profissional de seus usuários, esse aplicativo web é destinado a advogados autônomos e a pequenos e médios escritórios. Com o Astrea, o advogado acompanha processos, gerencia eventos e tarefas, gera faturas, arquiva documentos e muito mais. Tudo isso em um ambiente seguro e colaborativo.</p>
+		<p>O projeto está em constante evolução. Por isso, em parceria com a empresa Astrea, trabalhamos até hoje no desenvolvimento e aperfeiçoamento do aplicativo. Participamos das etapas de pesquisa e testes com usuários, desenvolvimento e validação dos mockups, design da interface, implementação e manutenção do código clientside.</p>
 	</div><!-- End .description -->
 	<div class="illustrate">
 		<figure>

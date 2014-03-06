@@ -4,7 +4,8 @@
 		<strong>Web app</strong>
 	</header>
 	<div class="description">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>O SPREADnet é um aplicativo web feito para o setor financeiro das médias e grandes empresas. Desenvolvido para facilitar as transações entre bancos e empresas, ele foi cuidadosamente pensado para trazer os recursos de uma mesa de operações completa para um ambiente digital agradável e simples de usar. Com ele, o usuário tem à disposição ferramentas com grande potencial de cálculo, que organizam e agilizam as negociações. </p>
+		<p>Atualmente, trabalhamos no desenvolvimento do SPREADnet em parceria com a Blue Chip Software. Atuamos nas etapas de pesquisa com usuários, desenvolvimento dos mockups, design da interface, implementação e manutenção do código clientside.</p>
 	</div><!-- End .description -->
 	<div class="illustrate">
 		<figure>

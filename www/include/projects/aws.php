@@ -4,7 +4,9 @@
 		<strong>Web campaign app</strong>
 	</header>
 	<div class="description">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Desenvolvemos esta campanha viral em parceria com o Clint Studio para a Amazon Web Service (AWS). O projeto comemora, de maneira divertida e animada, a marca de dois trilhões de objetos armazenados na nuvem pela AWS.</p>
+		<p>O usuário entende a relevância desse número em uma viagem pelo espaço. Os objetos armazenados viram combustível para o foguete AWS, que vai cada vez mais longe graças ao gigante potencial de seus clientes. Ao final da jornada, é possível compartilhar a página no Facebook e ganhar créditos para usar na Amazon Web Service.</p>
+		<p>Todo o conceito, conteúdo, interação e integração foram produzidos junto ao cliente. Para a implementação do site, utilizamos apenas as linguagens HTML, CSS e JS.</p>
 	</div><!-- End .description -->
 	<div class="illustrate">
 		<figure>
