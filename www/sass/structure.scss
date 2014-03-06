@@ -198,21 +198,28 @@ strong {font-weight: bold;}
 	font-size: 28pt;
 	font-weight: 300;
 	line-height: 1.2em;
+	margin-bottom: 30px;
 }
 
-.project .illustrate {
-	overflow: hidden;
+.illustrate {position: relative;}
+
+.illustrate > figure {
 	width: calc(100% + 40px);
+	overflow: hidden;
 }
 
-.project .illustrate img {width: 100%;}
+.project .illustrate img {display: block;}
+
+/********************************************/
+/* illustrate from odd itens */
+/********************************************/
+.project:nth-child(odd) .illustrate {left: -40px;}
+.project:nth-child(odd) .illustrate img {float: right;}
 
 /********************************************/
 /* .project.aws */
 /********************************************/
- .project.aws {
-	 background-color: rgba(209,238,135, 1);
- }
+ .project.aws {background-color: rgba(209,238,135, 1);}
 
 .project.aws header h1,
 .project.aws header strong,
@@ -221,9 +228,7 @@ strong {font-weight: bold;}
 /********************************************/
 /* .project.astrea */
 /********************************************/
- .project.astrea {
-	 background-color: rgba(25, 50, 88, 0.8);
- }
+ .project.astrea {background-color: rgba(25, 50, 88, 0.8);}
 
 .project.astrea header h1,
 .project.astrea header strong,
@@ -232,9 +237,7 @@ strong {font-weight: bold;}
 /********************************************/
 /* .project.spreadnet */
 /********************************************/
- .project.spreadnet {
-	 background-color: rgba(64, 64, 64, 1);
- }
+ .project.spreadnet {background-color: rgba(64, 64, 64, 1);}
 
 .project.spreadnet header h1,
 .project.spreadnet header strong,
@@ -243,9 +246,7 @@ strong {font-weight: bold;}
 /********************************************/
 /* .project.wayTwo */
 /********************************************/
- .project.wayTwo {
-	 background-color: rgba(22, 116, 185, 1);
- }
+ .project.wayTwo {background-color: rgba(22, 116, 185, 1); }
 
 .project.wayTwo header h1,
 .project.wayTwo header strong,
