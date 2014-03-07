@@ -14,3 +14,6 @@ ignore.txt
 
 # bower_components #
 /www/bower_components/
+
+# CSS compiled Folder #
+/www/css/
