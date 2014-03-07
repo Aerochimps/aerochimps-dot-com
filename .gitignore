@@ -1,13 +1,10 @@
 *.class
-
-# Package Files #
 *.jar
 *.war
 *.ear
-
-cakefile
-ignore.txt
 .DS_Store
 
-# Sass Cache #
+# From the project #
 .sass-cache
+www/bower_components/
+www/css/
