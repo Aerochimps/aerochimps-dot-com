@@ -60,6 +60,7 @@
 
 	<section class="main">
 		<?php include("include/mainHeader.php"); ?>
+		<?php include("include/mainNav.php"); ?>
 		<section class="content">
 			<?php include("include/chimps.php"); ?>
 			<?php include("include/team.php"); ?>
