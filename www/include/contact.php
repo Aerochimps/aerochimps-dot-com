@@ -27,7 +27,4 @@
 		<li><a target="_bank" href="http://facebook.com/aerochimps"><i class="fa fa-facebook-square"></i> /aerochimps</a></li>
 		<li><a target="_bank" href="http://twitter.com/aerochimps"><i class="fa fa-twitter"></i> @aerochimps</a></li>
 	</ul><!-- End .social -->
-	<div class="thanks">
-		<p>Obrigado pela visita. Nos ajude a dominar o mundo e <a href="#">compartilhe</a> esse site.</p>
-	</div><!-- End .thanks -->
 </section> <!-- End .contact -->
