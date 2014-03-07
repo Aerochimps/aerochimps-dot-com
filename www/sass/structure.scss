@@ -35,17 +35,6 @@ a, a:visited {
 
 strong {font-weight: bold;}
 
-.intro {
-	font-family: 'Roboto', sans-serif;
-	font-size: 40pt;
-	font-weight: 100;
-	font-style: italic;
-	line-height: 1.2em;
-	margin-bottom: 55px;
-}
-
-.intro > strong {font-weight: 300;}
-
 /***********************************************************/
 /* .mainheader */
 /***********************************************************/
@@ -68,21 +57,79 @@ strong {font-weight: bold;}
 	position: absolute;
 	top: 30px;
 	right: 40px;
+	cursor: pointer;
 }
 
 .viewNav > img {height: 30px;}
 
 /***********************************************************/
+/* .mainnav */
+/***********************************************************/
+.mainNav {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 315px;
+	background-color: rgba(243,252,251, 0.95);
+	box-shadow: 0 0 1px rgba(0,0,0, 0.3);
+	z-index: 10;
+	transition: 0.3s ease-in-out left;
+}
+
+.mainNav li {
+	font-size: 54pt;
+	padding: 13px 40px 13px 20px;
+	font-weight: 100;
+	font-style: italic;
+	text-align: right;
+	color: rgba(25, 196, 186, 1);
+	cursor: pointer;
+}
+
+.mainNav li:hover,
+.mainNav li.active,
+.mainNav li a:hover,
+.mainNav li.active a {
+	color: rgba(80, 60, 40, 1);
+	text-decoration: none;
+}
+
+.mainNav.close {
+	left: -315px;
+}
+/***********************************************************/
 /* .content */
 /***********************************************************/
 .content {
 	position: relative;
-	margin-top: 97px;
 }
+
+/***********************************************************/
+/* Common to all sections */
+/***********************************************************/
+.team,
+.projects,
+.clients,
+.contact {padding: 97px 40px 70px 40px;}
+
+.intro {
+	font-family: 'Roboto', sans-serif;
+	font-size: 40pt;
+	font-weight: 100;
+	font-style: italic;
+	line-height: 1.2em;
+	padding-top: 10px;
+	margin-bottom: 55px;
+}
+
+.intro > strong {font-weight: 300;}
 
 /***********************************************************/
 /* .chimps */
 /***********************************************************/
+.chimps {padding-top: 97px;}
+
 .chimps .banner {
 	background-color: rgba(27, 197, 187, 1);
 	background-image: url("../img/stars.png");
@@ -108,16 +155,11 @@ strong {font-weight: bold;}
 }
 
 .chimps .banner p strong {font-weight: 500;}
-
 .chimps .banner p:last-child {margin-bottom: 0;}
 
 /***********************************************************/
 /* .team */
 /***********************************************************/
-.team {
-	padding: 40px 40px 70px 40px;
-}
-
 .team .intro {
 	color: rgba(80, 60, 40, 1);
 }
@@ -166,8 +208,15 @@ strong {font-weight: bold;}
 /***********************************************************/
 /*  .projects */
 /***********************************************************/
+.projects {
+	padding-right: 0;
+	padding-left: 0;
+}
+
 .projects .intro {
-	padding: 40px 40px 15px 40px;
+	padding-right: 40px;
+	padding-bottom: 15px;
+	padding-left: 40px;
 	margin-bottom: 0;
 	color: rgba(0,0,0, 0.8);
 	background-color: rgba(209,238,135, 1);
@@ -264,10 +313,6 @@ strong {font-weight: bold;}
 /***********************************************************/
 /* clients */
 /***********************************************************/
-.clients {
-	padding: 40px 40px 70px 40px;
-}
-
 .clients ul li {
 	list-style: none;
 	width: 50%;
@@ -299,10 +344,7 @@ strong {font-weight: bold;}
 /***********************************************************/
 /* .contact */
 /***********************************************************/
-.contact {
-	padding: 40px 40px 100px 40px;
-}
-
+.contact {padding-bottom: 100px;}
 .contactForm {margin-bottom: 35px;}
 
 .contactForm input[type="text"],
