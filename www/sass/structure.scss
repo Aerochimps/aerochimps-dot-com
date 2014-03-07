@@ -202,6 +202,9 @@ strong {font-weight: bold;}
 	margin-bottom: 30px;
 }
 
+.project .description .read-more,
+.project .description .read-less {white-space: nowrap;}
+
 .illustrate {position: relative;}
 
 .illustrate > figure {
