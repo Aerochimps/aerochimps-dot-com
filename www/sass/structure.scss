@@ -295,11 +295,74 @@ strong {font-weight: bold;}
 }
 
 /***********************************************************/
+/* .contact */
+/***********************************************************/
+.contact {
+	padding: 40px 40px 100px 40px;
+}
+
+.contactForm {margin-bottom: 35px;}
+
+.contactForm input[type="text"],
+.contactForm input[type="email"],
+.contactForm textarea {
+	display: block;
+	width: 100%;
+	padding: 15px 20px;
+	margin-bottom: 35px;
+	border: 2px solid transparent;
+	border-bottom-color: rgba(25, 196, 186, 1);
+	font-family: 'Roboto', sans-serif;
+	font-size: 28pt;
+	line-height: 1.2em;
+	color: rgba(80, 60, 40, 1)
+}
+
+.contactForm textarea {
+	min-height: 170px;
+	resize: vertical;
+	overflow-y:hidden;
+}
+
+.contactForm input[type="submit"],
+.contactForm button {
+	display: block;
+	width: 100%;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	padding: 30px;
+	background-color: rgba(25, 196, 186, 1);
+	color: rgba(255,255,255, 1);
+	font-size: 28pt;
+	font-weight: 300;
+	text-align: center;
+	text-transform: lowercase;
+	cursor: pointer;
+}
+
+.social li {
+	list-style: none;
+	margin-bottom: 15px;
+	font-size: 32pt;
+	font-weight: 300;
+	text-align: center;
+}
+
+/***********************************************************/
 /* .mainFooter */
 /***********************************************************/
 .mainFooter {
-	padding-top: 25px;
+	padding: 0 40px;
 	margin-bottom: 30px;
+}
+
+.mainFooter .thanks {
+	margin-bottom: 25px;
+	font-size: 28pt;
+	text-align: center;
+	line-height: 1.2em;
+	color: rgba(80, 60, 40, 1);
+	font-weight: 300;
 }
 
 .mainFooter img {
