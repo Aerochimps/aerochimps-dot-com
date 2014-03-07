@@ -193,7 +193,8 @@ strong {font-weight: bold;}
 
 .project .description {margin-bottom: 30px;}
 
-.project .description p {
+.project .description p,
+.project .description .read-less {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 28pt;
 	font-weight: 300;
