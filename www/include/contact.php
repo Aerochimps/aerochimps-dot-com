@@ -3,20 +3,20 @@
 	<p id="contactFeedback"></p>
 	<form id="contactForm" method="POST" action="contactForm.php">
 		<div class="field">
-			<label>Nome:</label>
-			<input type="text" name="name">
+			<label class="vhide">Nome:</label>
+			<input type="text" name="name" placeholder="Nome">
 		</div><!-- End .field -->
 		<div class="field">
-			<label>Email:</label>
-			<input type="text" name="email">
+			<label class="vhide">Email:</label>
+			<input type="email" name="email" placeholder="Email">
 		</div><!-- End .field -->
 		<div class="field">
-			<label>Assunto:</label>
-			<input type="text" name="subject">
+			<label class="vhide">Assunto:</label>
+			<input type="text" name="subject" placeholder="Assunto">
 		</div><!-- End .field -->
 		<div class="field">
-			<label>Mensagem:</label>
-			<textarea name="message" ></textarea>
+			<label class="vhide">Mensagem:</label>
+			<textarea name="message" placeholder="Mensagem"></textarea>
 		</div><!-- End .field -->
 		<div class="actions">
 			<input type="submit" value="Enviar mensagem" />
