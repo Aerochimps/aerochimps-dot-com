@@ -11,9 +11,3 @@ ignore.txt
 
 # Sass Cache #
 .sass-cache
-
-# bower_components #
-/www/bower_components/
-
-# CSS compiled Folder #
-/www/css/
