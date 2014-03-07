@@ -211,8 +211,11 @@ strong {font-weight: bold;}
 .project .illustrate img {display: block;}
 
 /********************************************/
-/* illustrate from odd itens */
+/* odd itens */
 /********************************************/
+.project:nth-child(odd) header,
+.project:nth-child(odd) .description {text-align: right;}
+
 .project:nth-child(odd) .illustrate {left: -40px;}
 .project:nth-child(odd) .illustrate img {float: right;}
 
