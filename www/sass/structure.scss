@@ -107,6 +107,8 @@ strong {font-weight: bold;}
 	margin-bottom: 20px;
 }
 
+.chimps .banner p strong {font-weight: 500;}
+
 .chimps .banner p:last-child {margin-bottom: 0;}
 
 /***********************************************************/
@@ -315,6 +317,7 @@ strong {font-weight: bold;}
 	font-family: 'Roboto', sans-serif;
 	font-size: 28pt;
 	line-height: 1.2em;
+	text-transform: lowercase;
 	color: rgba(80, 60, 40, 1)
 }
 
