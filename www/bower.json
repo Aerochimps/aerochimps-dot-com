@@ -24,5 +24,7 @@
     "jquery-validation": "~1.11.2",
     "html5shiv": "~3.7.0",
     "font-awesome": "~4.0.3"
+    "font-awesome": "~4.0.3"
+    "animatescroll"
   }
 }
