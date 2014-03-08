@@ -44,23 +44,23 @@ strong {font-weight: bold;}
 	left: 0;
 	right: 0;
 	z-index: 10;
-	padding: 30px 40px;
+	padding: 15px 20px;
 	background-color: rgba(255,255,255, 1);
 	box-shadow: 0 1px 1px rgba(0,0,0, 0.2);
 }
 
 .mainHeader h1 img {
-	height: 35px;
+	height: 25px;
 }
 
 .viewNav {
 	position: absolute;
-	top: 30px;
-	right: 40px;
+	top: 20px;
+	right: 20px;
 	cursor: pointer;
 }
 
-.viewNav > img {height: 30px;}
+.viewNav > img {height: 16px;}
 
 /***********************************************************/
 /* .mainnav */
@@ -70,7 +70,7 @@ strong {font-weight: bold;}
 	top: 0;
 	bottom: 0;
 	left: 0;
-	width: 315px;
+	width: 168px;
 	background-color: rgba(243,252,251, 0.95);
 	box-shadow: 0 0 1px rgba(0,0,0, 0.3);
 	z-index: 10;
@@ -78,8 +78,8 @@ strong {font-weight: bold;}
 }
 
 .mainNav li {
-	font-size: 54pt;
-	padding: 13px 40px 13px 20px;
+	font-size: 27pt;
+	padding: 10px 20px 13px 20px;
 	font-weight: 100;
 	font-style: italic;
 	text-align: right;
@@ -96,14 +96,12 @@ strong {font-weight: bold;}
 }
 
 .mainNav.close {
-	left: -315px;
+	left: -168px;
 }
 /***********************************************************/
 /* .content */
 /***********************************************************/
-.content {
-	position: relative;
-}
+.content {position: relative;}
 
 /***********************************************************/
 /* Common to all sections */
@@ -111,16 +109,16 @@ strong {font-weight: bold;}
 .team,
 .projects,
 .clients,
-.contact {padding: 97px 40px 70px 40px;}
+.contact {padding: 57px 20px 0px 20px;}
 
 .intro {
 	font-family: 'Roboto', sans-serif;
-	font-size: 40pt;
+	font-size: 20pt;
 	font-weight: 100;
 	font-style: italic;
-	line-height: 1.2em;
+	line-height: 1.4em;
 	padding-top: 20px;
-	margin-bottom: 55px;
+	margin-bottom: 25px;
 }
 
 .intro > strong {font-weight: 300;}
@@ -128,30 +126,30 @@ strong {font-weight: bold;}
 /***********************************************************/
 /* .chimps */
 /***********************************************************/
-.chimps {padding-top: 97px;}
+.chimps {padding-top: 57px;}
 
 .chimps .banner {
 	background-color: rgba(27, 197, 187, 1);
 	background-image: url("../img/stars.png");
-	padding: 40px 40px 70px 40px;
+	padding: 30px 20px 30px 20px;
 	color: rgba(255,255,255, 1);
 }
 
 .chimps .banner h2 {
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 108pt;
+	font-size: 54pt;
 	font-weight: 100;
 	font-style: italic;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	text-transform: lowercase;
 }
 
 .chimps .banner p {
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 32pt;
+	font-size: 16pt;
 	font-weight: 300;
-	line-height: 1.2em;
-	margin-bottom: 20px;
+	line-height: 1.3em;
+	margin-bottom: 10px;
 }
 
 .chimps .banner p strong {font-weight: 500;}
@@ -164,15 +162,15 @@ strong {font-weight: bold;}
 	color: rgba(80, 60, 40, 1);
 }
 
-.people {margin-bottom: 95px}
+.people {margin-bottom: 30px}
 .people:last-child {margin-bottom: 0}
 
 .people figure {
-	width: 390px;
-	height: 390px;
+	width: 200px;
+	height: 200px;
 	border-radius: 50%;
 	overflow: hidden;
-	margin: 0 auto;
+	margin: 0 auto 15px auto;
 }
 
 .people figure img {
@@ -180,29 +178,28 @@ strong {font-weight: bold;}
 }
 
 .people h3 {
-	font-size: 80pt;
-	font-weight: 100;
-	font-style: italic;
-	line-height: 1.2em;
-	text-align: center;
-	text-transform: lowercase;
-}
-
-.people h4 {
 	font-size: 40pt;
 	font-weight: 100;
 	font-style: italic;
-	line-height: 1.2em;
 	text-align: center;
-	margin-bottom: 25px;
 	text-transform: lowercase;
+	margin-bottom: 5px;
+}
+
+.people h4 {
+	font-size: 20pt;
+	font-weight: 100;
+	font-style: italic;
+	text-align: center;
+	text-transform: lowercase;
+	margin-bottom: 15px;
 }
 
 .people .description p {
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 28pt;
+	font-size: 14pt;
 	font-weight: 300;
-	line-height: 1.2em;
+	line-height: 1.3em;
 }
 
 /***********************************************************/
@@ -214,7 +211,7 @@ strong {font-weight: bold;}
 }
 
 .projects .intro {
-	padding: 40px 40px 15px 40px;
+	padding: 20px 20px 0 20px;
 	margin-bottom: 0;
 	color: rgba(0,0,0, 0.8);
 	background-color: rgba(209,238,135, 1);
@@ -224,10 +221,10 @@ strong {font-weight: bold;}
 /* .project */
 /********************************************/
 .project {
-	padding: 50px 40px 30px 40px;
+	padding: 25px 20px 30px 20px;
 }
 
-.project header {margin-bottom: 25px;}
+.project header {margin-bottom: 15px;}
 
 .project header h1,
 .project header strong {
@@ -237,28 +234,39 @@ strong {font-weight: bold;}
 	text-transform: lowercase;
 }
 
-.project header h1 {font-size: 80pt;}
-.project header strong {font-size: 40pt;}
+.project header h1 {
+	font-size: 50pt;
+	margin-bottom: 10px;
+}
+
+.project header strong {
+	display: block;
+	font-size: 17pt;
+}
 
 .project .description {margin-bottom: 30px;}
 
 .project .description p,
 .project .description .read-less {
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 28pt;
+	font-size: 14pt;
 	font-weight: 300;
-	line-height: 1.2em;
-	margin-bottom: 30px;
+	line-height: 1.3em;
+	margin-bottom: 15px;
 }
 
 .project .description .read-more,
-.project .description .read-less {white-space: nowrap;}
+.project .description .read-less {
+	white-space: nowrap;
+	margin-bottom: 0;
+}
 
 .illustrate {position: relative;}
 
 .illustrate > figure {
-	width: calc(100% + 40px);
+	width: calc(100% + 20px);
 	overflow: hidden;
+	border-radius: 2px;
 }
 
 .project .illustrate img {display: block;}
@@ -269,7 +277,7 @@ strong {font-weight: bold;}
 .project:nth-child(odd) header,
 .project:nth-child(odd) .description {text-align: right;}
 
-.project:nth-child(odd) .illustrate {left: -40px;}
+.project:nth-child(odd) .illustrate {left: -20px;}
 .project:nth-child(odd) .illustrate img {float: right;}
 
 /********************************************/
@@ -315,7 +323,7 @@ strong {font-weight: bold;}
 	list-style: none;
 	width: 50%;
 	float: left;
-	border: 2px solid transparent;
+	border: 1px solid transparent;
 	overflow: hidden;
 }
 
@@ -333,38 +341,32 @@ strong {font-weight: bold;}
 	width: 100%;
 }
 
-.clients li img:hover {
-	transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	-moz-transform: scale(1.1);
-}
-
 /***********************************************************/
 /* .contact */
 /***********************************************************/
-.contact {padding-bottom: 100px;}
-.contactForm {margin-bottom: 35px;}
+.contact {padding-bottom: 3dha0px;}
+.contactForm {margin-bottom: 15px;}
 
 .contactForm input[type="text"],
 .contactForm input[type="email"],
 .contactForm textarea {
 	display: block;
 	width: 100%;
-	padding: 15px 20px;
+	padding: 5px 10px;
 	margin-bottom: 35px;
-	border: 2px solid transparent;
+	border: 1px solid transparent;
 	border-bottom-color: rgba(25, 196, 186, 1);
 	font-family: 'Roboto', sans-serif;
-	font-size: 28pt;
+	font-size: 14pt;
 	line-height: 1.2em;
 	text-transform: lowercase;
 	color: rgba(80, 60, 40, 1)
 }
 
 .contactForm textarea {
-	min-height: 170px;
+	min-height: 10px;
 	resize: vertical;
-	overflow-y:hidden;
+	overflow-y: hidden;
 }
 
 .contactForm input[type="submit"],
@@ -373,10 +375,10 @@ strong {font-weight: bold;}
 	width: 100%;
 	border: 1px solid transparent;
 	border-radius: 2px;
-	padding: 30px;
+	padding: 15px;
 	background-color: rgba(25, 196, 186, 1);
 	color: rgba(255,255,255, 1);
-	font-size: 28pt;
+	font-size: 14pt;
 	font-weight: 300;
 	text-align: center;
 	text-transform: lowercase;
@@ -386,7 +388,7 @@ strong {font-weight: bold;}
 .social li {
 	list-style: none;
 	margin-bottom: 15px;
-	font-size: 32pt;
+	font-size: 16pt;
 	font-weight: 300;
 	text-align: center;
 }
@@ -401,7 +403,7 @@ strong {font-weight: bold;}
 
 .mainFooter .thanks {
 	margin-bottom: 25px;
-	font-size: 28pt;
+	font-size: 14pt;
 	text-align: center;
 	line-height: 1.2em;
 	color: rgba(80, 60, 40, 1);
