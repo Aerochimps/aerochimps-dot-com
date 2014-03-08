@@ -1,10 +1,10 @@
 <nav class="mainNav close">
 	<ul>
-		<li class="active chimps">Chimps</li>
-		<li class="team">Time</li>
-		<li class="projects">Projetos</li>
-		<li class="clients">Clientes</li>
-		<li class="contact">Contato</li>
+		<li class="sectionChimps active">Chimps</li>
+		<li class="sectionTeam">Time</li>
+		<li class="sectionProjects">Projetos</li>
+		<li class="sectionClients">Clientes</li>
+		<li class="sectionContact">Contato</li>
 		<li class="hide"><a href="#blog">Blog</a></li>
 	</ul>
 </nav>
