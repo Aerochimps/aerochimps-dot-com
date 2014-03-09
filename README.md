@@ -34,10 +34,10 @@ After that, turn on your apache server.
 You will be able to acess http://localhost:8888 and see  the folder of our project. (But wait. Things aren't working yet.)
 
 Now you need open your terminal.app and navigate until the project folder.
-Inside of our project folder you will use bower install.
+Inside of our project folder you will use "bower install".
 It install all dependencies used in our project.
 
-After that in the same folder you need to use compass watch.
+After that in the same folder you need to use "compass watch".
 This will make compass compile all .scss files in .css files
 
 Ok, that's it. Now refresh your browser and everything will be working fine (If you do evrething righ, obviously)
