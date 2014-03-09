@@ -23,8 +23,7 @@
     "jquery.expander": "~1.4.7",
     "jquery-validation": "~1.11.2",
     "html5shiv": "~3.7.0",
-    "font-awesome": "~4.0.3"
-    "font-awesome": "~4.0.3"
-    "animatescroll"
+    "font-awesome": "~4.0.3",
+    "animatescroll": "1.0.0"
   }
 }
