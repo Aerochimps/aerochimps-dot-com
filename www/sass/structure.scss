@@ -109,7 +109,7 @@ strong {font-weight: bold;}
 .team,
 .projects,
 .clients,
-.contact {padding: 57px 20px 0px 20px;}
+.contact {padding: 67px 20px 0px 20px;}
 
 .intro {
 	font-family: 'Roboto', sans-serif;
@@ -117,7 +117,6 @@ strong {font-weight: bold;}
 	font-weight: 100;
 	font-style: italic;
 	line-height: 1.4em;
-	padding-top: 20px;
 	margin-bottom: 25px;
 }
 
@@ -131,7 +130,7 @@ strong {font-weight: bold;}
 .chimps .banner {
 	background-color: rgba(27, 197, 187, 1);
 	background-image: url("../img/stars.png");
-	padding: 30px 20px 30px 20px;
+	padding: 45px 20px;
 	color: rgba(255,255,255, 1);
 }
 
@@ -211,7 +210,7 @@ strong {font-weight: bold;}
 }
 
 .projects .intro {
-	padding: 20px 20px 0 20px;
+	padding: 30px 20px 0 20px;
 	margin-bottom: 0;
 	color: rgba(0,0,0, 0.8);
 	background-color: rgba(209,238,135, 1);
@@ -344,7 +343,7 @@ strong {font-weight: bold;}
 /***********************************************************/
 /* .contact */
 /***********************************************************/
-.contact {padding-bottom: 3dha0px;}
+.contact {padding-bottom: 30px;}
 .contactForm {margin-bottom: 15px;}
 
 .contactForm input[type="text"],
