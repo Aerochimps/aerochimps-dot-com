@@ -138,5 +138,10 @@ a:hover {text-decoration: underline;}
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
 	   		box-sizing: border-box;
+}
 
+/* Reset mobile webkit styles */
+input{
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
 }
