@@ -70,7 +70,7 @@ strong {font-weight: bold;}
 	top: 0;
 	bottom: 0;
 	left: 0;
-	width: 168px;
+	width: 152px;
 	background-color: rgba(243,252,251, 0.95);
 	box-shadow: 0 0 1px rgba(0,0,0, 0.3);
 	z-index: 10;
@@ -78,10 +78,11 @@ strong {font-weight: bold;}
 }
 
 .mainNav li {
-	font-size: 27pt;
+	font-size: 24pt;
 	padding: 10px 20px 13px 20px;
 	font-weight: 100;
 	font-style: italic;
+	text-transform: lowercase;
 	text-align: right;
 	color: rgba(25, 196, 186, 1);
 	cursor: pointer;
@@ -96,7 +97,7 @@ strong {font-weight: bold;}
 }
 
 .mainNav.close {
-	left: -168px;
+	left: -152px;
 }
 /***********************************************************/
 /* .content */
