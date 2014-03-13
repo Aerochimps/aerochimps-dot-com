@@ -348,8 +348,8 @@ strong {font-weight: bold;}
 /***********************************************************/
 /* .contact */
 /***********************************************************/
-.contact {padding-bottom: 30px;}
-.contactForm {margin-bottom: 15px;}
+.contact {padding-bottom: 50px;}
+.contactForm {margin-bottom: 30px;}
 
 .contactForm input[type="text"],
 .contactForm input[type="email"],
@@ -378,7 +378,7 @@ strong {font-weight: bold;}
 	width: 100%;
 	border: 1px solid transparent;
 	border-radius: 2px;
-	padding: 15px;
+	padding: 10px;
 	background-color: rgba(25, 196, 186, 1);
 	color: rgba(255,255,255, 1);
 	font-size: 14pt;
@@ -391,10 +391,16 @@ strong {font-weight: bold;}
 .social li {
 	list-style: none;
 	margin-bottom: 15px;
-	font-size: 16pt;
-	font-weight: 300;
 	text-align: center;
 }
+
+.social li a {
+	font-size: 14pt;
+	font-weight: 300;
+}
+
+.social li:last-child {margin-bottom: 0;}
+.social li .fa {margin-right: 5px;}
 
 /***********************************************************/
 /* .mainFooter */
