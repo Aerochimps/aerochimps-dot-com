@@ -4,19 +4,19 @@
 	<form id="contactForm" class="contactForm" method="POST" action="contactForm.php">
 		<div class="field">
 			<label class="vhide">Nome:</label>
-			<input type="text" name="name" placeholder="Nome">
+			<input type="text" name="name" placeholder="Como você se chama?">
 		</div><!-- End .field -->
 		<div class="field">
 			<label class="vhide">Email:</label>
-			<input type="email" name="email" placeholder="Email">
+			<input type="email" name="email" placeholder="Qual o seu email?">
 		</div><!-- End .field -->
 		<div class="field">
 			<label class="vhide">Assunto:</label>
-			<input type="text" name="subject" placeholder="Assunto">
+			<input type="text" name="subject" placeholder="Conversaremos sobre o quê?">
 		</div><!-- End .field -->
 		<div class="field">
 			<label class="vhide">Mensagem:</label>
-			<textarea name="message" placeholder="Mensagem"></textarea>
+			<textarea name="message" placeholder="Escreva sua mensagem e diga como podemos te ajudar. :)"></textarea>
 		</div><!-- End .field -->
 		<div class="actions">
 			<input type="submit" value="Enviar mensagem" />
