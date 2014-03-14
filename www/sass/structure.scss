@@ -106,7 +106,8 @@ strong {font-weight: bold;}
 /***********************************************************/
 /* .content */
 /***********************************************************/
-.content {position: relative;}
+.content,
+.content > section {position: relative;}
 
 /***********************************************************/
 /* Common to all sections */
@@ -418,6 +419,23 @@ strong {font-weight: bold;}
 .social li:last-child {margin-bottom: 0;}
 .social li .fa {margin-right: 5px;}
 
+/********************************************/
+/* form validation */
+/********************************************/
+.contactFeedback {
+	position: absolute;
+	top: 67px;
+	left: 20px;
+	right: 20px;
+	font-size: 14pt;
+	text-align: center;
+	color: rgba(255,255,255, 1);
+	background: rgba(25, 196, 186, 0.95);
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: 0 1px 0 rgba(21, 163, 155, 1);
+	margin-bottom: 15px;
+}
 /***********************************************************/
 /* .mainFooter */
 /***********************************************************/
