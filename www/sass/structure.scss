@@ -375,6 +375,16 @@ strong {font-weight: bold;}
 .contactForm input[type="email"]:hover,
 .contactForm textarea:hover { border-bottom-color: rgba(6, 184, 174, 1)}
 
+.contactForm input[type="text"]:focus,
+.contactForm input[type="email"]:focus,
+.contactForm textarea:focus {
+	border-bottom-width: 2px;
+	color: rgba(80, 60, 40, 1);
+	margin-bottom: -1px;
+}
+
+.contactForm textarea:focus {margin-bottom: 0;}
+
 .contactForm textarea {
 	min-height: 100px;
 	resize: vertical;
