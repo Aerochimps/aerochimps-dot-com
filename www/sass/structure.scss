@@ -392,6 +392,15 @@ strong {font-weight: bold;}
 	cursor: pointer;
 }
 
+
+.contactForm input[type="submit"][disabled="disabled"],
+.contactForm button[disabled="disabled"],
+.contactForm input[type="submit"][disabled="disabled"]:hover,
+.contactForm button[disabled="disabled"]:hover {
+	background-color: rgba(167, 147, 157, 1);
+	cursor: default;
+}
+
 .contactForm input[type="submit"]:hover,
 .contactForm button:hover {background-color: rgba(6,184,174,1)}
 
