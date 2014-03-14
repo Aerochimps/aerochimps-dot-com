@@ -145,3 +145,12 @@ input{
 	-webkit-appearance: none;
 	-webkit-border-radius: 0;
 }
+
+/*Reset outline in :focus*/
+a:focus,
+button:focus,
+input:focus {outline: none;}
+
+a::-moz-focus-inner,
+button::-moz-focus-inner,
+input::-moz-focus-inner {border: 0;}

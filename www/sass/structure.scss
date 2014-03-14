@@ -422,7 +422,9 @@ input {outline: none;}
 }
 
 .contactForm input[type="submit"]:hover,
-.contactForm button:hover {background-color: rgba(6,184,174,1)}
+.contactForm button:hover,
+.contactForm input[type="submit"]:focus,
+.contactForm button:focus {background-color: rgba(6,184,174,1)}
 
 .social li {
 	list-style: none;
