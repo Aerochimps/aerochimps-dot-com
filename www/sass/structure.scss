@@ -352,13 +352,17 @@ strong {font-weight: bold;}
 .contact {padding-bottom: 50px;}
 .contactForm {margin-bottom: 30px;}
 
+.contactForm .field {
+	position: relative;
+	margin-bottom: 35px;
+}
+
 .contactForm input[type="text"],
 .contactForm input[type="email"],
 .contactForm textarea {
 	display: block;
 	width: 100%;
 	padding: 5px 10px;
-	margin-bottom: 35px;
 	border: 1px solid transparent;
 	border-bottom-color: rgba(25, 196, 186, 1);
 	font-family: 'Roboto', sans-serif;
@@ -436,6 +440,50 @@ strong {font-weight: bold;}
 	box-shadow: 0 1px 0 rgba(21, 163, 155, 1);
 	margin-bottom: 15px;
 }
+
+label.error {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 5px;
+	color: rgba(255,255,255, 1);
+	background-color: rgba(196, 25, 61, 0.5);
+}
+
+.contactForm .field.error,
+.contactForm input.error,
+.contactForm textarea.error {
+	color: rgba(196, 25, 61, 1);
+	border-bottom-color: rgba(196, 25, 61, 1);
+}
+
+.contactForm .error input:hover,
+.contactForm .error textarea:hover,
+.contactForm input.error:hover,
+.contactForm textarea.error:hover {
+	color: rgba(196, 25, 61, 1); 
+	border-bottom-color: rgba(196, 25, 61, 1);
+}
+
+.contactForm .field.error ::-webkit-input-placeholder,
+.contactForm .error::-webkit-input-placeholder {
+	color: rgba(196, 25, 61, 1); 
+	border-bottom-color: rgba(196, 25, 61, 1);
+}
+
+.contactForm .field.error ::-moz-placeholder,
+.contactForm .error::-moz-placeholder {
+	color: rgba(196, 25, 61, 1);
+	border-bottom-color: rgba(196, 25, 61, 1);
+}
+
+.contactForm .field.error :-ms-input-placeholder,
+.contactForm .error:-ms-input-placeholder {
+	color: rgba(196, 25, 61, 1);
+	border-bottom-color: rgba(196, 25, 61, 1);
+}
+
 /***********************************************************/
 /* .mainFooter */
 /***********************************************************/
