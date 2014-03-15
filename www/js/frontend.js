@@ -38,23 +38,38 @@ $(document).ready(function() {
 	//Scroll to each section
 	////////////////////////////////////////////////////
 	$('.sectionChimps').click(function(){
-		$('.chimps').animatescroll({scrollSpeed:2000});
+		$('.chimps').animatescroll({
+			scrollSpeed:2000,
+			padding: "56"
+		});
 	});
 
 	$('.sectionTeam').click(function(){
-		$('.team').animatescroll({scrollSpeed:2000});
+		$('.team').animatescroll({
+			scrollSpeed:2000,
+			padding: "56"
+		});
 	});
 
 	$('.sectionProjects').click(function(){
-		$('.projects').animatescroll({scrollSpeed:2000});
+		$('.projects').animatescroll({
+			scrollSpeed:2000,
+			padding: "56"
+		});
 	});
 
 	$('.sectionClients').click(function(){
-		$('.clients').animatescroll({scrollSpeed:2000});
+		$('.clients').animatescroll({
+			scrollSpeed:2000,
+			padding: "56"
+		});
 	});
 
 	$('.sectionContact').click(function(){
-		$('.contact').animatescroll({scrollSpeed:2000});
+		$('.contact').animatescroll({
+			scrollSpeed:2000,
+			padding: "56"
+		});
 	});
 
 	////////////////////////////////////////////////////
