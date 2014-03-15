@@ -1,0 +1,25 @@
+/*********************************************************************/
+/* landscape.css */
+/*********************************************************************/
+@media only screen and (orientation : landscape) {
+
+	/********************************************/
+	/* smartphones */
+	/********************************************/
+	@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+
+		
+	//End smartphones
+	}
+
+	/********************************************/
+	/* ipads */
+	/********************************************/
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+		
+	//End ipads
+	}
+
+//End Orientation: landscape
+}
