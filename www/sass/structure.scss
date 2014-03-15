@@ -427,7 +427,10 @@ input {outline: none;}
 .contactForm button:focus {background-color: rgba(6,184,174,1)}
 
 .contactForm input[type="submit"]:active,
-.contactForm button:active { box-shadow: 0 2px 1px rgba(17, 135, 128, 1) inset;}
+.contactForm button:active {
+	box-shadow: 0 2px 0 rgba(17, 135, 128, 1) inset;
+	border-top: none;
+}
 
 .social li {
 	list-style: none;
