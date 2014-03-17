@@ -4,7 +4,7 @@
 		<li><a href="http://aws.amazon.com/pt/" target="_blank"><img src="img/clients/aws.svg" alt="Amazon Web Services" /></a></li>
 		<li><a href="http://astrea.adv.br/" target="_blank"><img src="img/clients/astrea.svg" alt="Astrea" /></a></li>
 		<li><a href="http://conpedi.org.br/" target="_blank"><img src="img/clients/compedi.svg" alt="Compedi" /></a></li>
-		<li><a href="http://www.coolendar.com/" target="_blank"><img src="img/clients/coolendar.png" alt="Coolendar" /></a></li>
+		<li><a href="http://www.coolendar.com/" target="_blank"><img src="img/clients/coolendar.svg" alt="Coolendar" /></a></li>
 		<li><a href="http://www.sebrae.com.br/" target="_blank"><img src="img/clients/sebrae.svg" alt="Sebrae" /></a></li>
 		<li><a href="http://www.spreadnet.com.br/" target="_blank"><img src="img/clients/spreadnet.svg" alt="SPREADnet" /></a></li>
 		<li><a href="http://videoface.com.br/" target="_blank"><img src="img/clients/videoface.svg" alt="Videoface" /></a></li>
