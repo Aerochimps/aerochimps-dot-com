@@ -10,7 +10,7 @@
 	</div><!-- End .description -->
 	<div class="illustrate">
 		<figure>
-			<img src="img/projects/aws.jpg" alt="AWS Journey screenshot" width="1277" />
+			<img src="img/projects/aws.jpg" alt="AWS Journey screenshot" />
 		</figure>
 	</div><!-- End .illustrate -->
 </section><!-- End .project.aws -->

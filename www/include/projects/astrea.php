@@ -9,7 +9,7 @@
 	</div><!-- End .description -->
 	<div class="illustrate">
 		<figure>
-			<img src="img/projects/astrea.jpg" alt="Astrea screenshot" width="1096"/>
+			<img src="img/projects/astrea.jpg" alt="Astrea screenshot" />
 		</figure>
 	</div><!-- End .illustrate -->
 </section><!-- End .project.astrea -->

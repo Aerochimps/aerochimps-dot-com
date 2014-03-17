@@ -285,7 +285,10 @@ input {outline: none;}
 	border-radius: 2px;
 }
 
-.project .illustrate img {display: block;}
+.project .illustrate img {
+	height: 300px;
+	display: block;
+}
 
 /********************************************/
 /* odd itens */
