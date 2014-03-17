@@ -23,7 +23,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
 	<!-- Standart Favicon -->
-	<link rel="shortcut icon" type="image/png" href="img/deviceIcons/favicon.png"/>
+	<link rel="shortcut icon" type="image/png" href="img/deviceIcons/favicon@2x.png"/>
 	<!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
 	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/deviceIcons/apple-touch-icon-152x152-precomposed.png">
 	<!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
