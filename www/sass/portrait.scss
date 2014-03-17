@@ -1,17 +1,14 @@
 /*********************************************************************/
 /* landscape.css */
 /*********************************************************************/
-@media only screen and (orientation : landscape) {
+@media only screen and (orientation : portrait) {
 
 	/********************************************/
 	/* smartphones */
 	/********************************************/
-	@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+	@media only screen and (min-device-width : 568px) and (max-device-width : 320px) {
 
-		.mainNav li {
-			font-size: 22pt;
-			padding: 5px 20px 7px 20px;
-		}
+		
 
 	//End smartphones
 	}
@@ -19,7 +16,7 @@
 	/********************************************/
 	/* ipads */
 	/********************************************/
-	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	@media only screen and (min-device-width : 1024px) and (max-device-width : 768px) {
 
 		
 
