@@ -465,21 +465,17 @@ label.error {
 	right: 0;
 	padding: 5px;
 	color: rgba(255,255,255, 1);
-	background-color: rgba(196, 25, 61, 0.5);
+	background-color: rgba(196, 25, 61, 0.4);
 }
 
 .contactForm .field.error,
 .contactForm input.error,
-.contactForm textarea.error {
-	color: rgba(196, 25, 61, 1);
-	border-bottom-color: rgba(196, 25, 61, 1);
-}
-
+.contactForm textarea.error,
 .contactForm .error input:hover,
 .contactForm .error textarea:hover,
 .contactForm input.error:hover,
 .contactForm textarea.error:hover {
-	color: rgba(196, 25, 61, 1); 
+	color: rgba(196, 25, 61, 1);
 	border-bottom-color: rgba(196, 25, 61, 1);
 }
 
