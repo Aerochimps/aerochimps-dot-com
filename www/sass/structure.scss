@@ -112,8 +112,10 @@ input {outline: none;}
 /* .content */
 /***********************************************************/
 .content,
-.content > section {
+.content > section,
+.mainFooter {
 	position: relative;
+	z-index: 1;
 	background-color: rgba(255,255,255, 1);
 }
 
@@ -510,10 +512,7 @@ label.error {
 /***********************************************************/
 /* .mainFooter */
 /***********************************************************/
-.mainFooter {
-	padding: 0 40px;
-	margin-bottom: 30px;
-}
+.mainFooter {padding: 0 40px 30px 40px;}
 
 .mainFooter .thanks {
 	margin-bottom: 25px;
