@@ -38,7 +38,7 @@ $(document).ready(function() {
 	//Scroll to each section
 	////////////////////////////////////////////////////
 	$('.sectionChimps').click(function(){
-		$('.content').animatescroll({
+		$('.chimps').animatescroll({
 			scrollSpeed:2000,
 			padding: "56"
 		});
