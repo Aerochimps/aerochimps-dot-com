@@ -400,6 +400,7 @@ input {outline: none;}
 
 .contactForm input[type="submit"],
 .contactForm button {
+	position: relative;
 	display: block;
 	width: 100%;
 	border: 1px solid transparent;
@@ -430,6 +431,7 @@ input {outline: none;}
 
 .contactForm input[type="submit"]:active,
 .contactForm button:active {
+	top: 1px;
 	box-shadow: 0 2px 0 rgba(17, 135, 128, 1) inset;
 	border-top: none;
 }
