@@ -112,7 +112,10 @@ input {outline: none;}
 /* .content */
 /***********************************************************/
 .content,
-.content > section {position: relative;}
+.content > section {
+	position: relative;
+	background-color: rgba(255,255,255, 1);
+}
 
 .content {padding-top: 57px;}
 
@@ -137,6 +140,11 @@ input {outline: none;}
 /***********************************************************/
 /* .chimps */
 /***********************************************************/
+.content .chimps {
+	position: fixed;
+	top: 57px;
+}
+
 .chimps .banner {
 	background-color: rgba(27, 197, 187, 1);
 	background-image: url("../img/stars.png");
@@ -167,6 +175,8 @@ input {outline: none;}
 /***********************************************************/
 /* .team */
 /***********************************************************/
+.team {margin-top: 273px;}
+
 .team .intro {
 	color: rgba(80, 60, 40, 1);
 }
