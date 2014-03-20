@@ -8,6 +8,6 @@
 		<li><a href="http://www.sebrae.com.br/" target="_blank"><img src="img/clients/sebrae.svg" alt="Sebrae" /></a></li>
 		<li><a href="http://www.spreadnet.com.br/" target="_blank"><img src="img/clients/spreadnet.svg" alt="SPREADnet" /></a></li>
 		<li><a href="http://videoface.com.br/" target="_blank"><img src="img/clients/videoface.svg" alt="Videoface" /></a></li>
-		<li><a href="http://way2.com.br/?lang=pt" target="_blank"><img src="img/clients/way2.png" alt="Way2" /></a></li>
+		<li><a href="http://way2.com.br/?lang=pt" target="_blank"><img src="img/clients/way2.svg" alt="Way2" /></a></li>
 	</ul>
 </section> <!-- End .clients -->
