@@ -1,12 +1,11 @@
 @import "reset";
 
-/* Plugins */
+// Plugins
 @import "../bower_components/font-awesome/css/font-awesome.min.css";
 
-/* What we do :) */
+// What we do :)
 @import "structure";
-@import "colors";
 
-/* Mobile devices */
-@import "portrait";
+// Mobile devices
+@import "screen768";
 @import "landscape";

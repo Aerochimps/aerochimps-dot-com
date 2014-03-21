@@ -1,0 +1,30 @@
+/*********************************************************************/
+/* Screens > 768px */
+/*********************************************************************/
+@media only screen and (min-width: 768px) {
+
+	.mainHeader h1 {float: left;}
+	.viewNav {display: none;}
+
+	.mainNav,
+	.mainNav.close {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 0;
+		width: auto;
+		text-align: center;
+		background-color: transparent;
+		box-shadow: 0 0 0 transparent;
+	}
+
+	.mainNav li {
+		display: inline-block;
+		padding: 19px 10px;
+		font-size: 14pt;
+	}
+
+//End @media only screen and (min-width: 768px)
+}
