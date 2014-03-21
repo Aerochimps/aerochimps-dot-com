@@ -225,13 +225,15 @@ input {outline: none;}
 /***********************************************************/
 /* .projects */
 /***********************************************************/
-.projects {padding: 0;}
+.content  .projects {
+	padding: 0;
+	background-color: rgba(209,238,135, 1);
+}
 
 .projects .intro {
 	padding: 45px 20px 0 20px;
 	margin-bottom: 0;
 	color: rgba(0,0,0, 0.8);
-	background-color: rgba(209,238,135, 1);
 }
 
 /********************************************/
