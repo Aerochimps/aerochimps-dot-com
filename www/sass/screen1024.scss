@@ -1,0 +1,75 @@
+/*********************************************************************/
+/* Screens > 1024px */
+/*********************************************************************/
+@media only screen and (min-width: 1024px) {
+
+	/***********************************************************/
+	/* Common to almost all sections */
+	/***********************************************************/
+	.intro {margin-bottom: 45px; text-align: center;}
+
+	/***********************************************************/
+	/* .team */
+	/***********************************************************/
+	.team .wrapper {max-width: 790px;}
+	.team .intro {max-width: 500px;}
+
+	/***********************************************************/
+	/* .people */
+	/***********************************************************/
+	.people {
+		position: relative;
+		min-height: 250px;
+		margin-bottom: 50px;
+	}
+
+	.people figure {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 250px;
+		height: 250px;
+	}
+
+	.people figure img {height: 110%;}
+
+	.people h3,
+	.people h4,
+	.people .description {
+		margin-left: 295px;
+		text-align: left;
+	}
+
+	/***********************************************************/
+	/* .projects */
+	/***********************************************************/
+	.project {overflow: hidden;}
+
+	.project .wrapper {
+		position: relative;
+		max-width: 790px;
+	}
+
+	.illustrate {
+		position: absolute;
+		top: 0;
+	}
+
+	.illustrate > figure {width: 800px;}
+
+	/********************************************/
+	/* even itens */
+	/********************************************/
+	.project:nth-child(even) header,
+	.project:nth-child(even) .description, {margin-right: 405px;}
+	.project:nth-child(even) .illustrate {right: -440px;}
+
+	/********************************************/
+	/* odd itens */
+	/********************************************/
+	.project:nth-child(odd) header,
+	.project:nth-child(odd) .description, {margin-left: 405px;}
+	.project:nth-child(odd) .illustrate {left: -440px;}
+
+//End @media only screen and (min-width: 768px)
+}
