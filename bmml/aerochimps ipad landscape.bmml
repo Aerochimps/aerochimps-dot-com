@@ -1,0 +1,370 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1683" measuredH="3624" mockupW="1079" mockupH="3610">
+  <controls>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="632" y="14" w="1024" h="3610" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Canvas" x="636" y="1943" w="1020" h="355" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>14540253</color>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Canvas" x="638" y="1453" w="1014" h="490" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="676" y="100" w="-1" h="-1" measuredW="53" measuredH="32" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>Logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Canvas" x="634" y="146" w="1022" h="494" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>6710886</color>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Label" x="970" y="100" w="-1" h="-1" measuredW="76" measuredH="32" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>24</size>
+        <text>chimps</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Label" x="1064" y="100" w="-1" h="-1" measuredW="90" measuredH="32" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>4555150</color>
+        <size>24</size>
+        <text>projetos</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="1172" y="100" w="-1" h="-1" measuredW="85" measuredH="32" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>4555150</color>
+        <size>24</size>
+        <text>clientes</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Label" x="1276" y="100" w="-1" h="-1" measuredW="46" measuredH="32" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>4555150</color>
+        <size>24</size>
+        <text>blog</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Label" x="894" y="185" w="500" h="-1" measuredW="472" measuredH="68" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <color>16777215</color>
+        <size>60</size>
+        <text>we%20make%20apps%20fly</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Paragraph" x="894" y="280" w="500" h="317" measuredW="200" measuredH="80" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <color>16777215</color>
+        <size>24</size>
+        <text>Desenvolvemos%20aplicativos%20flex%EDveis%2C%20seguros%2C%20escal%E1veis%20e%20atraentes%20para%20dispositivos%20m%F3veis%20e%20desktops.%20A%20bordo%20da%20Aerochimps%2C%20apresentamos%20solu%E7%F5es%20criativas%20e%20inovadoras%2C%20adequadas%20%E0s%20necessidades%20do%20cliente%20e%20focadas%20na%20experi%EAncia%20do%20usu%E1rio.%0A%20%0ADo%20planejamento%20%E0%20execu%E7%E3o%2C%20todas%20as%20etapas%20s%E3o%20realizadas%20e%20guiadas%20por%20n%F3s.%20O%20nosso%20diferencial%20est%E1%20na%20sinergia%20entre%20os%20s%F3cios%20e%20na%20dedica%E7%E3o%20direcionada%20a%20cada%20um%20dos%20projetos.</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Paragraph" x="894" y="679" w="500" h="119" measuredW="200" measuredH="80" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <color>6710886</color>
+        <size>32</size>
+        <text>somos%20um%20time%20de%203%20amigos%20unidos%20pelo%20prop%F3sito%20de%20viver%20daquilo%20que%20gostamos</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Paragraph" x="1046" y="928" w="500" h="166" measuredW="200" measuredH="80" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <color>6710886</color>
+        <size>20</size>
+        <text>Graduada%20em%20Design%20Gr%E1fico%20pela%20UDESC%2C%20j%E1%20trabalhou%20com%20desenvolvimento%20de%20projetos%20nas%20%E1reas%20de%20experi%EAncia%20do%20usu%E1rio%20e%20design%20de%20interface.%20Na%20Aerochimps%2C%20seu%20principal%20objetivo%20%E9%20projetar%20%F3timos%20e%20amig%E1veis%20aplicativos%20web%20e%20mobile.%20Nas%20horas%20vagas%2C%20ela%20e%20sua%20bicicleta%20tentam%20conquistar%20o%20mundo.</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::RoundButton" x="756" y="848" w="250" h="250" measuredW="32" measuredH="32" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Label" x="1046" y="836" w="500" h="-1" measuredW="247" measuredH="48" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <color>6710886</color>
+        <size>40</size>
+        <text>marcela%20quint</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Label" x="1046" y="874" w="500" h="-1" measuredW="175" measuredH="40" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <color>6710886</color>
+        <size>32</size>
+        <text>ux%20designer</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::Paragraph" x="902" y="1503" w="500" h="109" measuredW="200" measuredH="80" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <color>6710886</color>
+        <size>28</size>
+        <text>Destacamos%20os%20nossos%20principais%20projetos%20para%20que%20voc%EA%20nos%20conhe%E7a%20pelo%20o%20que%20fazemos%20de%20melhor.</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Paragraph" x="1046" y="1718" w="500" h="202" measuredW="200" measuredH="80" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <color>6710886</color>
+        <size>20</size>
+        <text>Desenvolvemos%20esta%20campanha%20viral%20em%20parceria%20com%20o%20Clint%20Studio%20para%20a%20Amazon%20Web%20Service%20%28AWS%29.%20O%20projeto%20comemora%2C%20de%20maneira%20divertida%20e%20animada%2C%20a%20marca%20de%20dois%20trilh%F5es%20de%20objetos%20armazenados%20na%20nuvem%20pela%20AWS.%0A%20%0AO%20usu%E1rio%20entende%20a%20relev%E2ncia%20desse%20n%FAmero%20em%20uma%20viagem%20pelo%20espa%E7o.%20Os%u2026%20ver%20mais</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Label" x="1042" y="1632" w="500" h="-1" measuredW="219" measuredH="48" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <color>6710886</color>
+        <size>40</size>
+        <text>aws%20journey</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="1042" y="1670" w="500" h="-1" measuredW="256" measuredH="40" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <color>6710886</color>
+        <size>32</size>
+        <text>web%20campain%20app</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::RoundButton" x="604" y="1640" w="400" h="259" measuredW="32" measuredH="32" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <shape>roundRect</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Paragraph" x="750" y="2069" w="500" h="150" measuredW="200" measuredH="80" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <color>6710886</color>
+        <size>20</size>
+        <text>Criado%20para%20facilitar%20a%20vida%20profissional%20de%20seus%20usu%E1rios%2C%20esse%20aplicativo%20web%20%E9%20destinado%20a%20advogados%20aut%F4nomos%20e%20a%20pequenos%20e%20m%E9dios%20escrit%F3rios.%20Com%20o%20Astrea%2C%20o%20advogado%20acompanha%20processos%2C%20gerencia%20eventos%20e%20tarefas%2C%20gera%20faturas%2C%20arquiva%20documentos%20e%20muito%20mais.%20Tudo%20isso%20em%20um%20ambiente%u2026%20ver%20mais</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Label" x="746" y="1983" w="500" h="-1" measuredW="119" measuredH="48" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <color>6710886</color>
+        <size>40</size>
+        <text>astrea</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Label" x="746" y="2021" w="500" h="-1" measuredW="123" measuredH="40" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <color>6710886</color>
+        <size>32</size>
+        <text>web%20app</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::RoundButton" x="1283" y="1992" w="400" h="259" measuredW="32" measuredH="32" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <shape>roundRect</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Paragraph" x="899" y="2339" w="500" h="109" measuredW="200" measuredH="80" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>32</size>
+        <text>Com%20clientes%20como%20esses%2C%20%E9%20f%E1cil%20amar%20o%20que%20se%20faz.</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Label" x="901" y="2466" w="261" h="-1" measuredW="111" measuredH="68" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <color>6710886</color>
+        <size>60</size>
+        <text>logo</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Label" x="1153" y="2466" w="261" h="-1" measuredW="111" measuredH="68" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <color>6710886</color>
+        <size>60</size>
+        <text>logo</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Label" x="901" y="2566" w="261" h="-1" measuredW="111" measuredH="68" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <color>6710886</color>
+        <size>60</size>
+        <text>logo</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Label" x="1153" y="2566" w="261" h="-1" measuredW="111" measuredH="68" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <color>6710886</color>
+        <size>60</size>
+        <text>logo</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::HRule" x="902" y="2551" w="500" h="-1" measuredW="100" measuredH="10" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::VRule" x="1147" y="2445" w="-1" h="218" measuredW="10" measuredH="100" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Paragraph" x="899" y="2743" w="500" h="119" measuredW="200" measuredH="80" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>32</size>
+        <text>Agora%20que%20voc%EA%20j%E1%20nos%20conhece%20melhor%2C%20vamos%20conversar%3F%20Entre%20em%20contato%20com%20a%20gente.</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::HRule" x="902" y="2931" w="500" h="-1" measuredW="100" measuredH="10" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.75</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Paragraph" x="899" y="2901" w="500" h="40" measuredW="200" measuredH="80" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>20</size>
+        <text>Como%20voc%EA%20se%20chama%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::HRule" x="902" y="3007" w="500" h="-1" measuredW="100" measuredH="10" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.75</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Paragraph" x="899" y="2977" w="500" h="40" measuredW="200" measuredH="80" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>20</size>
+        <text>Qual%20o%20seu%20email%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::HRule" x="902" y="3083" w="500" h="-1" measuredW="100" measuredH="10" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.75</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Paragraph" x="899" y="3053" w="500" h="40" measuredW="200" measuredH="80" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>20</size>
+        <text>Conversaremos%20sobre%20o%20qu%EA%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::HRule" x="902" y="3203" w="500" h="-1" measuredW="100" measuredH="10" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.75</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Paragraph" x="899" y="3147" w="500" h="46" measuredW="200" measuredH="80" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>20</size>
+        <text>Escreva%20sua%20mensagem%20e%20diga%20como%20podemos%20lhe%20ajudar.</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Button" x="902" y="3220" w="500" h="46" measuredW="129" measuredH="27" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Enviar%20mensagem</text>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::Paragraph" x="1046" y="1228" w="500" h="186" measuredW="200" measuredH="80" zOrder="42" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <color>6710886</color>
+        <size>20</size>
+        <text>Experiente%20em%20design%20de%20intera%E7%E3o%20e%20desenvolvimento%20frontend%2C%20vive%20entre%20interfaces%20e%20linhas%20de%20c%F3digo.%20%C9%20mestre%20em%20HTML%20e%20CSS%20e%20sua%20principal%20meta%20na%20Aerochimps%20%E9%20garantir%20a%20infraestrutura%20escal%E1vel%20e%20sem%E2ntica%20dos%20projetos.%20Passa%20o%20tempo%20livre%20ouvindo%20podcasts%2C%20dirigindo%20na%20estrada%20e%20sonhando%20com%20o%20dia%20que%20largar%E1%20tudo%20para%20ganhar%20a%20vida%20jogando%20video-game.</text>
+      </controlProperties>
+    </control>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::RoundButton" x="756" y="1148" w="250" h="250" measuredW="32" measuredH="32" zOrder="43" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Label" x="1046" y="1136" w="500" h="-1" measuredW="32" measuredH="48" zOrder="44" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <color>6710886</color>
+        <size>40</size>
+        <text>id</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Label" x="1046" y="1174" w="500" h="-1" measuredW="276" measuredH="40" zOrder="45" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <color>6710886</color>
+        <size>32</size>
+        <text>frontend%20developer</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Paragraph" x="899" y="3307" w="500" h="26" measuredW="200" measuredH="80" zOrder="46" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <color>6710886</color>
+        <size>20</size>
+        <text>contact@aerochimps.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::Paragraph" x="899" y="3341" w="500" h="26" measuredW="200" measuredH="80" zOrder="47" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <color>6710886</color>
+        <size>20</size>
+        <text>/aerochimps</text>
+      </controlProperties>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Paragraph" x="899" y="3375" w="500" h="26" measuredW="200" measuredH="80" zOrder="48" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <color>6710886</color>
+        <size>20</size>
+        <text>@aerochimps</text>
+      </controlProperties>
+    </control>
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::Paragraph" x="899" y="3433" w="500" h="53" measuredW="200" measuredH="80" zOrder="49" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <color>6710886</color>
+        <size>20</size>
+        <text>Obrigado%20pela%20visita.%20Nos%20ajude%20a%20dominar%20o%20mundo%20e%20compartilhe%20esse%20site.</text>
+      </controlProperties>
+    </control>
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::Icon" x="1128" y="3492" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="50" locked="false" isInGroup="-1"/>
+  </controls>
+</mockup>
