@@ -5,7 +5,7 @@
     $from = "contact@aerochimps.com"; 
     // $to = 'contact@aerochimps.com'; 
     $to = "gumaestri@gmail.com";
-    $subject = $_POST['message'];
+    $subject = $_POST['subject'];
 
     $body = "From: $name\n E-Mail: $email\n Message:\n $message";
 

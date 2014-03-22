@@ -1,7 +1,11 @@
+jQuery.extend(jQuery.validator.messages, {
+    required: "Campo obrigatório.",
+    email: "Esse é mesmo o seu email?.",
+});
 $(function() {
-	$('#name').bind('change keyup', function() {
-	    if($('#contactForm').valid()) {
-	        $('#submitButton').attr('disabled', false);
+	$('#contactForm').bind('change keyup', function() {
+	    if($('#contactForm').validate().checkForm()) {
+	        $('#submitButton').removeAttr('disabled');
 	    } else {
 	        $('#submitButton').attr('disabled', true);
 	    }
@@ -25,14 +29,18 @@ $(function() {
 		submitHandler: function(form) {
 			$.ajax({
 				type: "POST",
-				url: "contact.php",
+				url: "include/contactForm.php",
 				data: $(form).serialize(),
 				success: function(data, textStatus, jqXH){
 					$("#contactFeedback").text(data);
-					$("#contactFeedback").removeCLass('hide');
-
+					$("#contactFeedback").removeClass('hide');
+					setTimeout(hideFeedback,4000);
 				}
 			});
 		}
 	});
 });
+
+hideFeedback = function(){
+	$("#contactFeedback").addClass('hide');
+}
