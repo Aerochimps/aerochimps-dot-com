@@ -10,8 +10,8 @@
     $body = "From: $name\n E-Mail: $email\n Message:\n $message";
 
     if (mail ($to, $subject, $body, $from)) { 
-        echo '<p>Your message has been sent!</p>';
+        echo 'Obrigado pelo seu contato!';
     } else { 
-        echo '<p class="error">Something went wrong, go back and try again!</p>'; 
+        echo 'Ops!! Nossos macacos não conseguiram enviar sua mensagem, tente novamente!'; 
     }
 ?>

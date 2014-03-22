@@ -1,26 +1,26 @@
 <section id="contact" class="contact">
 	<div class="wrapper">
 		<p class="intro">Agora que você já nos conhece melhor, vamos conversar? Entre em <strong>contato</strong> com a gente.</p>
-		<p id="contactFeedback" class="contactFeedback hide">Obrigado pelo seu contato!</p>
+		<p id="contactFeedback" class="contactFeedback hide"></p>
 		<form id="contactForm" class="contactForm" method="POST" action="contactForm.php">
 			<div class="field">
 				<label class="vhide">Nome:</label>
-				<input type="text" name="name" placeholder="Como você se chama?">
+				<input id="name" type="text" name="name" placeholder="Como você se chama?">
 			</div><!-- End .field -->
 			<div class="field">
 				<label class="vhide">Email:</label>
-				<input type="email" name="email" placeholder="Qual o seu email?">
+				<input id="email" type="email" name="email" placeholder="Qual o seu email?">
 			</div><!-- End .field -->
 			<div class="field">
 				<label class="vhide">Assunto:</label>
-				<input type="text" name="subject" placeholder="Conversaremos sobre o quê?">
+				<input id="subject" type="text" name="subject" placeholder="Conversaremos sobre o quê?">
 			</div><!-- End .field -->
 			<div class="field">
 				<label class="vhide">Mensagem:</label>
-				<textarea name="message" placeholder="Escreva sua mensagem e diga como podemos te ajudar. :)"></textarea>
+				<textarea id="message" name="message" placeholder="Escreva sua mensagem e diga como podemos te ajudar. :)"></textarea>
 			</div><!-- End .field -->
 			<div class="actions">
-				<input type="submit" value="Enviar mensagem" />
+				<input id="submitButton" type="submit" disabled="disabled" value="Enviar mensagem" />
 			</div><!-- End .actions -->
 		</form><!-- End #contactForm -->
 		<ul class="social">
