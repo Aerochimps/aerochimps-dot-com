@@ -134,6 +134,8 @@ input {outline: none;}
 .clients,
 .contact {padding: 45px 20px;}
 
+.wrapper {position: relative;}
+
 .intro {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20pt;
@@ -469,7 +471,7 @@ input {outline: none;}
 /********************************************/
 .contactFeedback {
 	position: absolute;
-	top: 67px;
+	top: 0;
 	left: 20px;
 	right: 20px;
 	font-size: 14pt;
