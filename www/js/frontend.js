@@ -75,11 +75,11 @@ $(document).ready(function() {
 	////////////////////////////////////////////////////
 	//Read more in .project
 	////////////////////////////////////////////////////
-	// $('.project .description').expander({
-	// 	slicePoint: 300,
-	// 	expandText: 'ver mais',
-	// 	userCollapseText: 'ver menos'
-	// });
+	$('.project .description').expander({
+	 slicePoint: 300,
+	 expandText: 'ver mais',
+	 userCollapseText: 'ver menos'
+	});
 
 	////////////////////////////////////////////////////
 	//Only for Desktop
