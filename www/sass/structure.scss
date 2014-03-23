@@ -427,8 +427,13 @@ input {outline: none;}
 .contactForm input[type="submit"][disabled="disabled"],
 .contactForm button[disabled="disabled"],
 .contactForm input[type="submit"][disabled="disabled"]:hover,
-.contactForm button[disabled="disabled"]:hover {
+.contactForm button[disabled="disabled"]:hover,
+.contactForm input[type="submit"][disabled="disabled"]:active,
+.contactForm button[disabled="disabled"]:active {
+	top: 0;
+	border-top-color: transparent;
 	background-color: rgba(167, 147, 157, 1);
+	box-shadow: 00 0 transparent inset;
 	cursor: default;
 }
 
@@ -440,7 +445,7 @@ input {outline: none;}
 .contactForm input[type="submit"]:active,
 .contactForm button:active {
 	box-shadow: 0 1px 0 rgba(17, 135, 128, 1) inset;
-	border-top: solid 1px rgba(17, 135, 128, 1);
+	border-top: 1px solid rgba(17, 135, 128, 1);
 	top: 1px;
 
 }
