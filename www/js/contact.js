@@ -1,28 +1,28 @@
 jQuery.extend(jQuery.validator.messages, {
-    required: "Campo obrigatório.",
-    email: "Esse é mesmo o seu email?.",
+	required: "Campo obrigatório.",
+	email: "Esse é mesmo o seu email?",
 });
 $(function() {
 	$('#contactForm').bind('change keyup', function() {
-	    if($('#contactForm').validate().checkForm()) {
-	        $('#submitButton').removeAttr('disabled');
-	    } else {
-	        $('#submitButton').attr('disabled', true);
-	    }
+		if($('#contactForm').validate().checkForm()) {
+			$('#submitButton').removeAttr('disabled');
+		} else {
+			$('#submitButton').attr('disabled', true);
+		}
 	});
 	$("#contactForm").validate({
 		rules: {
 			name: {
 				required: true
 			},
-			email:{
+			email: {
 				required: true,
 				email: true
 			},
-			subject:{
+			subject: {
 				required: true
 			},
-			message:{
+			message: {
 				required: true
 			}
 		},
