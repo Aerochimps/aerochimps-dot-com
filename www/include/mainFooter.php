@@ -1,7 +1,7 @@
 <footer class="mainFooter">
 	<div class="wrapper">
 		<div class="thanks">
-			<p>Obrigado pela visita. Nos ajude a dominar o mundo e <a href="#">compartilhe</a> esse site.</p>
+			<p>Obrigado pela visita. Nos ajude a dominar o mundo e <a id="facebookShare" href="#">compartilhe</a> esse site.</p>
 		</div><!-- End .thanks -->
 		<img src="img/logos/logo-img.svg" alt="Aerochimps logo" />
 	</div><!-- End .wrapper -->
