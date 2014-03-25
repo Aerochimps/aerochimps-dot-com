@@ -134,7 +134,11 @@ input {outline: none;}
 .clients,
 .contact {padding: 45px 20px;}
 
-.wrapper {position: relative;}
+.wrapper {
+	position: relative;
+	max-width: 550px;
+	margin: 0 auto;
+}
 
 .intro {
 	font-family: 'Roboto', sans-serif;
@@ -228,15 +232,11 @@ input {outline: none;}
 /* .projects */
 /***********************************************************/
 .content  .projects {
-	padding: 0;
-	background-color: rgba(209,238,135, 1);
+	padding-top: 45px;
+	background-color: rgba(241,227,122, 1);
 }
 
-.projects .intro {
-	padding: 45px 20px 0 20px;
-	margin-bottom: 0;
-	color: rgba(0,0,0, 0.8);
-}
+.projects .intro {margin: 0 20px;}
 
 /********************************************/
 /* .project */
