@@ -12,8 +12,12 @@
 	.chimps .banner {padding: 60px 20px;}
 	
 	.chimps .banner {padding-bottom: 90px;}
-	
 	.project {padding: 45px 20px 60px 20px;}
+	
+	.chimps .banner p,
+	.people .description p,
+	.project .description p,
+	.project .description .read-less {line-height: 1.4em;}
 
 	/***********************************************************/
 	/* .mainheader */
