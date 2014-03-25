@@ -85,5 +85,6 @@
 	<script src="js/frontend.js"></script>
 	<script src="js/contact.js"></script>
 	<script src="js/facebook.js"></script>
+	<script src="js/scroll.js"></script>
 </body>
 </html>
