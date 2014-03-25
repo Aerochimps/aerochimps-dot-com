@@ -1,7 +1,6 @@
 <section id="contact" class="contact">
 	<div class="wrapper">
 		<p class="intro">Agora que você já nos conhece melhor, vamos conversar? Entre em <strong>contato</strong> com a gente.</p>
-		<p id="contactFeedback" class="contactFeedback hide"></p>
 		<form id="contactForm" class="contactForm" method="POST" action="contactForm.php">
 			<div class="field">
 				<label class="vhide">Nome:</label>

@@ -17,4 +17,7 @@
 			<li id="blog" class="sectionBlog"><a href="#blog">Blog</a></li>
 		</ul>
 	</nav>
+	<div class="wrapper">
+		<p id="contactFeedback" class="contactFeedback hide"></p>
+	</div><!-- End .wrapper -->
 </header> <!-- End .mainHeader -->

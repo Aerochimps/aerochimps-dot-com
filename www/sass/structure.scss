@@ -58,6 +58,9 @@ input {outline: none;}
 	box-shadow: 0 1px 1px rgba(0,0,0, 0.2);
 }
 
+/*This is the place to the feedback message from the contact form */
+.mainHeader .wrapper {height: 0;}
+
 .mainHeader h1 {
 	position: relative;
 	z-index: 1;
@@ -491,17 +494,16 @@ input {outline: none;}
 /********************************************/
 .contactFeedback {
 	position: absolute;
-	top: 0;
-	left: 20px;
-	right: 20px;
+	width: 100%;
+	top: 65px;
 	font-size: 14pt;
 	text-align: center;
+	font-weight: 300;
 	color: rgba(255,255,255, 1);
-	background: rgba(25, 196, 186, 0.95);
+	background: rgba(25, 196, 186, 0.9);
 	padding: 10px;
 	border-radius: 3px;
 	box-shadow: 0 1px 0 rgba(21, 163, 155, 1);
-	margin-bottom: 15px;
 }
 
 label.error {
