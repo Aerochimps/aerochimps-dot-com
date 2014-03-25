@@ -52,7 +52,7 @@
 
 	.illustrate {
 		position: absolute;
-		top: 0;
+		top: 7px;
 	}
 
 	.illustrate > figure {width: 800px;}
@@ -61,15 +61,15 @@
 	/* even itens */
 	/********************************************/
 	.project:nth-child(even) header,
-	.project:nth-child(even) .description, {margin-right: 405px;}
-	.project:nth-child(even) .illustrate {right: -440px;}
+	.project:nth-child(even) .description, {margin-right: 295px; text-align: right;}
+	.project:nth-child(even) .illustrate {right: -550px;}
 
 	/********************************************/
 	/* odd itens */
 	/********************************************/
 	.project:nth-child(odd) header,
-	.project:nth-child(odd) .description, {margin-left: 405px;}
-	.project:nth-child(odd) .illustrate {left: -440px;}
+	.project:nth-child(odd) .description, {margin-left: 295px; text-align: left;}
+	.project:nth-child(odd) .illustrate {left: -550px;}
 
 //End @media only screen and (min-width: 768px)
 }
