@@ -39,7 +39,7 @@ scrollMenu = function(){
 				selectMenu('li#contact');
 			}
 
-			console.log(scroll_posicion);
+			// console.log(scroll_posicion);
 	});
 };
 
