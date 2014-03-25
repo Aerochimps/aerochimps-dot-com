@@ -305,38 +305,58 @@ input {outline: none;}
 /********************************************/
 /* .project.aws */
 /********************************************/
- .project.aws {background-color: rgba(209,238,135, 1);}
+ .project.aws {background-color: rgba(241,227,122, 1);}
 
 .project.aws header h1,
 .project.aws header strong,
 .project.aws .description p {color: rgba(0,0,0, 0.8);}
 
+.project.aws .description a {
+	font-weight: 400;
+	color: rgba(0,0,0, 1);
+}
+
 /********************************************/
 /* .project.astrea */
 /********************************************/
- .project.astrea {background-color: rgba(25, 50, 88, 0.8);}
+ .project.astrea {background-color: rgba(169, 213, 113, 0.8);}
 
 .project.astrea header h1,
 .project.astrea header strong,
 .project.astrea .description p {color: rgba(255,255,255, 1);}
 
+.project.astrea .description a {
+	font-weight: 400;
+	color: rgba(255,255,255, 1);
+}
+
 /********************************************/
 /* .project.spreadnet */
 /********************************************/
- .project.spreadnet {background-color: rgba(64, 64, 64, 1);}
+ .project.spreadnet {background-color: rgba(134, 134, 134, 1);}
 
 .project.spreadnet header h1,
 .project.spreadnet header strong,
 .project.spreadnet .description p {color: rgba(255,255,255, 0.8);}
 
+.project.spreadnet .description a {
+	font-weight: 400;
+	color: rgba(255,255,255, 1);
+}
+
 /********************************************/
 /* .project.wayTwo */
 /********************************************/
- .project.wayTwo {background-color: rgba(22, 116, 185, 1); }
+ .project.wayTwo {background-color: rgba(103, 160, 189, 1); }
 
 .project.wayTwo header h1,
 .project.wayTwo header strong,
 .project.wayTwo .description p {color: rgba(255,255,255, 0.8);}
+
+.project.wayTwo .description a {
+	font-weight: 400;
+	color: rgba(255,255,255, 1);
+}
 
 /***********************************************************/
 /* .clients */
