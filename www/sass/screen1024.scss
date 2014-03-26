@@ -70,6 +70,11 @@
 	.project:nth-child(odd) header,
 	.project:nth-child(odd) .description, {margin-left: 295px; text-align: left;}
 	.project:nth-child(odd) .illustrate {left: -550px;}
+	
+	/********************************************/
+	/* .project.wayTwo */
+	/********************************************/
+	.project.wayTwo .read-less {margin-bottom: 85px;}
 
 //End @media only screen and (min-width: 768px)
 }
