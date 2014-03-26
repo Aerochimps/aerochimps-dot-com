@@ -84,7 +84,8 @@
 	<script src="bower_components/jquery-validation/jquery.validate.js"></script>
 	<script src="js/frontend.js"></script>
 	<script src="js/contact.js"></script>
-	<script src="js/facebook.js"></script>
 	<script src="js/scroll.js"></script>
+	<script src="js/facebook.js"></script>
+
 </body>
 </html>

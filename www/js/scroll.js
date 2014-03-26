@@ -9,8 +9,15 @@ var  team = 400;
 var projects = 1479;
 var clients = 3243;
 var contact = 4027;
+if (isMobile()) {
+		team = $('section#team').offset().top;
+		projects = $('section#projects').offset().top;
+		clients = $('section#clients').offset().top;
+		contact = $('section#contact').offset().top ;
+};
 
 scrollMenu = function(){
+	 
 	$(window).scroll(function() {
 			var $window = $(window);
 			var scroll_posicion = $window.scrollTop();
@@ -49,4 +56,16 @@ unselectMenu = function(){
 
 selectMenu = function(menu){
 	$(menu).addClass('active');
+	
 };
+
+/**
+ * @function isMobile
+ * detecta se o useragent e um dispositivo mobile
+ */
+function isMobile()
+{
+	var userAgent = navigator.userAgent.toLowerCase();
+	if( userAgent.search(/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i)!= -1 )
+		return true;
+}

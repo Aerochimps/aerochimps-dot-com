@@ -5,8 +5,8 @@ facebookAPI = function(){
 $.ajaxSetup({ cache: true });
 		$.getScript('//connect.facebook.net/en_UK/all.js', function(){
 			FB.init({
-				appId: '604069822972920',
-				channelUrl: 'http://localhost/channel.html',
+				appId: '604069822972920', // ID do site 656312157738865
+				channelUrl: 'http://localhost/channel.html', // http://aerochimps.com/channel.html
 			});
 
 			$('#facebookShare').click(function(){
