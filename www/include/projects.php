@@ -1,6 +1,6 @@
 <section id="projects" class="projects">
 	<div class="wrapper">
-		<p class="intro">Destacamos os nossos principais <strong>projetos</strong> para que você nos conheça pelo o que fazemos de melhor.</p>
+		<p class="intro">Destacamos os nossos principais <strong>projetos</strong> para que você nos conheça melhor.</p>
 	</div><!-- End .wrapper -->
 
 	<?php include("projects/aws.php"); ?>
