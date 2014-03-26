@@ -10,10 +10,7 @@
 	.clients,
 	.contact,
 	.chimps .banner {padding: 60px 20px;}
-	
-	.chimps .banner {padding-bottom: 90px;}
-	.project {padding: 45px 20px 60px 20px;}
-	
+
 	.chimps .banner p,
 	.people .description p,
 	.project .description p,
@@ -49,9 +46,19 @@
 	}
 
 	/***********************************************************/
+	/* .chimps */
+	/***********************************************************/
+	.chimps .banner {padding-bottom: 90px;}
+
+	/***********************************************************/
 	/* .projects */
 	/***********************************************************/
 	.project .illustrate img {height: auto; width: 100%;}
+
+	/***********************************************************/
+	/* .project */
+	/***********************************************************/
+	.project {padding: 45px 20px 60px 20px;}
 
 //End @media only screen and (min-width: 768px)
 }

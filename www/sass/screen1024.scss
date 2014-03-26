@@ -11,15 +11,13 @@
 		text-align: center;
 		margin-bottom: 45px;
 	}
-	
+
 	.wrapper {max-width: 600px;}
-	
+
 	/***********************************************************/
 	/* .mainNav */
 	/***********************************************************/
-	.mainNav li {
-		padding: 19px 15px;
-	}
+	.mainNav li {padding: 19px 15px;}
 
 	/***********************************************************/
 	/* .chimps */
@@ -93,7 +91,7 @@
 	.project:nth-child(odd) header,
 	.project:nth-child(odd) .description, {margin-left: 295px; text-align: left;}
 	.project:nth-child(odd) .illustrate {left: -550px;}
-	
+
 	/********************************************/
 	/* .project.wayTwo */
 	/********************************************/

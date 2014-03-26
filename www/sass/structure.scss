@@ -114,9 +114,7 @@ input {outline: none;}
 	text-decoration: none;
 }
 
-.mainNav.close {
-	left: -152px;
-}
+.mainNav.close {left: -152px;}
 /***********************************************************/
 /* .content */
 /***********************************************************/
@@ -202,9 +200,7 @@ input {outline: none;}
 	margin: 0 auto 15px auto;
 }
 
-.people figure img {
-	height: 100%;
-}
+.people figure img {height: 100%;}
 
 .people h3 {
 	font-size: 40pt;
@@ -245,7 +241,6 @@ input {outline: none;}
 /* .project */
 /********************************************/
 .project {padding: 45px 20px;}
-
 .project header {margin-bottom: 15px;}
 
 .project header h1,
@@ -284,7 +279,6 @@ input {outline: none;}
 }
 
 .project .description .read-less {display: block;}
-
 .illustrate {position: relative;}
 
 .illustrate > figure {
@@ -450,7 +444,6 @@ input {outline: none;}
 	cursor: pointer;
 }
 
-
 .contactForm input[type="submit"][disabled="disabled"],
 .contactForm button[disabled="disabled"],
 .contactForm input[type="submit"][disabled="disabled"]:hover,
@@ -474,7 +467,6 @@ input {outline: none;}
 	box-shadow: 0 1px 0 rgba(17, 135, 128, 1) inset;
 	border-top: 1px solid rgba(17, 135, 128, 1);
 	top: 1px;
-
 }
 
 .social li {
