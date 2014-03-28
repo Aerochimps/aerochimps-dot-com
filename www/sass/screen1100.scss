@@ -38,5 +38,19 @@
 	.project .description .read-more,
 	.project .description .read-less {font-size: 15pt;}
 
+	.project .illustrate {
+		transition-delay: 1s;
+		transition: 0.3s ease-in-out all;
+	}
+	/***********************************************************/
+	/* even itens */
+	/***********************************************************/
+	.project:nth-child(even) .wrapper:hover .illustrate {right: -500px;}
+
+	/********************************************/
+	/* odd itens */
+	/********************************************/
+	.project:nth-child(odd) .wrapper:hover .illustrate {left: -500px;}
+
 //End @media only screen and (min-width: 768px)
 }

@@ -82,14 +82,14 @@
 	/* even itens */
 	/********************************************/
 	.project:nth-child(even) header,
-	.project:nth-child(even) .description, {margin-right: 295px; text-align: right;}
+	.project:nth-child(even) .description, {margin-right: 345px; text-align: right;}
 	.project:nth-child(even) .illustrate {right: -550px;}
 
 	/********************************************/
 	/* odd itens */
 	/********************************************/
 	.project:nth-child(odd) header,
-	.project:nth-child(odd) .description, {margin-left: 295px; text-align: left;}
+	.project:nth-child(odd) .description, {margin-left: 345px; text-align: left;}
 	.project:nth-child(odd) .illustrate {left: -550px;}
 
 	/********************************************/
