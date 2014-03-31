@@ -5,8 +5,8 @@ facebookAPI = function(){
 $.ajaxSetup({ cache: true });
 		$.getScript('//connect.facebook.net/en_UK/all.js', function(){
 			FB.init({
-				appId: '604069822972920', // ID do site 656312157738865
-				channelUrl: 'http://localhost/channel.html', // http://aerochimps.com/channel.html
+				appId: '656312157738865', // 604069822972920 ID do site 
+				channelUrl: 'http://aerochimps.com/channel.html' //'http://localhost/channel.html', // 
 			});
 
 			$('#facebookShare').click(function(){
@@ -16,7 +16,7 @@ $.ajaxSetup({ cache: true });
 						FB.ui({
 							method: 'feed',
 							link: 'http://aerochimps.com/',
-							/*picture: 'http://fbrell.com/f8.jpg', */
+							picture: 'http://aerochimps.com/img/deviceIcons/aerochimps-facebook-icon.png', 
 							name: 'Aerochimps',
 							caption: 'Making apps fly.',
 							description: 'Aerochimps: rumo à dominação mundial. Eu ajudei, agora só faltam mais 6.998.598.294,42 pessoas.'
