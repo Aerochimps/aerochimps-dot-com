@@ -86,6 +86,14 @@ $(document).ready(function() {
 	////////////////////////////////////////////////////
 	if($(window).width() >= 1024){
 
+		////////////////////////////////////////////////////
+		//Mouse Parallax
+		////////////////////////////////////////////////////
+		$('.banner').mousemove(function(e){
+			var amountMovedX = (e.pageX * -1 / 10);
+			var amountMovedY = (e.pageY * -1 / 10);
+			$(this).css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
+		});
 
 	//End "only for dektop"
 	}
