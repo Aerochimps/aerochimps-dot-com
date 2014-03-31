@@ -14,7 +14,7 @@
 			<li id="projects" class="sectionProjects">Projetos</li>
 			<li id="clients" class="sectionClients">Clientes</li>
 			<li id="contact" class="sectionContact">Contato</li>
-			<li id="blog" class="sectionBlog"><a href="#blog">Blog</a></li>
+			<li id="blog" class="sectionBlog"><a href="https://medium.com/@Aerochimps" target="_blank">Blog</a></li>
 		</ul>
 	</nav>
 	<div class="wrapper">
