@@ -28,7 +28,7 @@ $(document).ready(function() {
 	});
 	
 	$( window ).resize(function() {
-		if ($( window ).width() < 765) {
+		if ($( window ).width() < 768) {
 			$('.mainNav').addClass('close');
 		}
 	});
