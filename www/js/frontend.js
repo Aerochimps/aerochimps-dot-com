@@ -27,6 +27,11 @@ $(document).ready(function() {
 		$('.mainNav').toggleClass('close');
 	});
 	
+	$( window ).resize(function() {
+		if ($( window ).width() < 765) {
+			$('.mainNav').addClass('close');
+		}
+	});
 	//Hide .mainNav when a item is clicked
 	$('.mainNav li').click(function(){
 		$(this).closest('.mainNav').toggleClass('close');
