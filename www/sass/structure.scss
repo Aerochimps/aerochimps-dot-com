@@ -383,9 +383,13 @@ input {outline: none;}
 .clients ul li:nth-last-child(2) {border-bottom-color: transparent;}
 
 .clients li img {
+	transition: 0.3s ease-in-out all;
 	display: block;
 	width: 100%;
+	opacity: 0.8;
 }
+
+.clients li img:hover {opacity: 1;}
 
 /***********************************************************/
 /* .contact */
