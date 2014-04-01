@@ -3,8 +3,8 @@
     $email = $_POST['email'];
     $message = $_POST['message'];
     // $from = "contact@aerochimps.com"; 
-     // $to = 'contact@aerochimps.com'; 
-    $to = "gumaestri@gmail.com";
+     $to = 'contact@aerochimps.com'; 
+    // $to = "gumaestri@gmail.com";
     $subject = $_POST['subject'];
 
     $body = $message;

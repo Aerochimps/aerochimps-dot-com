@@ -32,6 +32,7 @@ $(function() {
 				url: "include/contactForm.php",
 				data: $(form).serialize(),
 				success: function(data, textStatus, jqXH){
+					$("#name,#email,#subject,#message").val('');
 					$("#contactFeedback").text(data);
 					$("#contactFeedback").removeClass('hide');
 					setTimeout(hideFeedback,4000);

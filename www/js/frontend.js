@@ -31,7 +31,7 @@ $(document).ready(function() {
 	}
 	$(window).konami(function(){
 		$('body').addClass('konami');
-		//$( ".surprise" ).load( "" );
+		$( ".surprise" ).load( "konami/2048/index.html" );
 	})
 
 	////////////////////////////////////////////////////
