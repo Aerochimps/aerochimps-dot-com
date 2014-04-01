@@ -10,10 +10,15 @@
 
 	<!-- Metas -->
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-	<meta name="description" content=""/>
-	<meta name="author" content="Aerochimps"/>
-	<meta name="rating" content="general"/>
-	<meta name="revisit-after" content="1 month"/>
+	<meta name="language" content="pt-br, en-us" />
+	<meta name="description" content="Desenvolvemos aplicativos web e mobile, com soluções criativas e inovadoras, adequadas às necessidades do cliente e focadas no usuário." />
+	<meta name="keywords" content="web development, desenvolvimento web floripa, desenvolvimento de aplicativos floripa, web development brazil, mobile brazil, ux floripa, ux florianópolis, consultoria ux"/>
+	<meta name="author" content="Aerochimps" /> 
+	<meta name="classification" content="Internet" /> 
+	<meta name="rating" content="general" /> 
+	<meta name="copyright" content="Aerochimps" /> 
+	<meta name="revisit-after" content="1 month" />	 
+	<link rel="canonical" href="http://aerochimps.com/" /> 	
 
 	<!-- CSS -->
 	<link rel="stylesheet" media="screen" href="css/app.css"/>
@@ -40,12 +45,12 @@
 	<link rel="apple-touch-icon-precomposed" href="img/deviceIcons/apple-touch-icon-precomposed.png">
 
 	<!-- Facebook -->
-	<meta property="og:site_name" content=""/>
-	<meta property="og:url" content="http://"/>
-	<meta property="og:title" content=""/>
-	<meta property="og:description" content=""/>
+	<meta property="og:site_name" content="Aerochimps - We make apps fly!"/>
+	<meta property="og:url" content="http://aerochimps.com/"/>
+	<meta property="og:title" content="Aerochimps - We make apps fly!"/>
+	<meta property="og:description" content="Empresa de desenvolvimento de aplicativos web e mobile localizada em Florianópolis, Brasil. Soluções criativas e inovadoras para clientes e usuários."/>
 	<meta property="og:type" content="website"/>
-	<meta property="og:image" content="http://"/>
+	<meta property="og:image" content="http://aerochimps.com/img/deviceIcons/aerochimps-facebook-icon.png"/>
 
 	<!-- Google Analytics -->
 	<script type="text/javascript">
