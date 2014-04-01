@@ -200,7 +200,12 @@ input {outline: none;}
 	margin: 0 auto 15px auto;
 }
 
-.people figure img {height: 100%;}
+.people figure img {
+	transition: 0.3s ease-in-out all;
+	height: 100%;
+}
+
+.people:hover figure img {transform: scale(1.1);}
 
 .people h3 {
 	font-size: 40pt;
