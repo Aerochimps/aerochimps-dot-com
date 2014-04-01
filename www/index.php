@@ -55,7 +55,7 @@
 	<!-- Google Analytics -->
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-XXXXXXXXX-X']);
+		_gaq.push(['_setAccount', 'UA-28698569-1']); //Please, be carefull and remove our Analytics ID if you use this code :)
 		_gaq.push(['_setDomainName', 'aerochimps.com']);
 		_gaq.push(['_trackPageview']);
 
