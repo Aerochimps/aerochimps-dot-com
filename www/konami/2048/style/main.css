@@ -8,12 +8,14 @@ html, body {
   font-size: 18px; }
 
 body {
-  margin: 80px 0; }
+  margin: 0; }
 
-.heading:after {
-  content: "";
-  display: block;
-  clear: both; }
+.heading,
+.above-game,
+.game-explanation,
+hr,
+hr + p {
+  display: none; }
 
 h1.title {
   font-size: 80px;
@@ -30,6 +32,7 @@ h1.title {
   100% {
     top: -50px;
     opacity: 0; } }
+
 @-moz-keyframes move-up {
   0% {
     top: 25px;
@@ -38,6 +41,7 @@ h1.title {
   100% {
     top: -50px;
     opacity: 0; } }
+
 @keyframes move-up {
   0% {
     top: 25px;
@@ -46,6 +50,7 @@ h1.title {
   100% {
     top: -50px;
     opacity: 0; } }
+
 .scores-container {
   float: right;
   text-align: right; }
@@ -125,20 +130,23 @@ hr {
 
   100% {
     opacity: 1; } }
+
 @-moz-keyframes fade-in {
   0% {
     opacity: 0; }
 
   100% {
     opacity: 1; } }
+
 @keyframes fade-in {
   0% {
     opacity: 0; }
 
   100% {
     opacity: 1; } }
+
 .game-container {
-  margin-top: 40px;
+  margin-top: 0;
   position: relative;
   padding: 15px;
   cursor: default;
@@ -313,26 +321,26 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
+    background-color: #eee4da;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: #ede0c8;
+    background-color: #ede0c8;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
     color: #f9f6f2;
-    background: #f2b179; }
+    background-color: #f2b179; }
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
-    background: #f59563; }
+    background-color: #f59563; }
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
-    background: #f67c5f; }
+    background-color: #f67c5f; }
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
-    background: #f65e3b; }
+    background-color: #f65e3b; }
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
-    background: #edcf72;
+    background-color: #edcf72;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -340,7 +348,7 @@ hr {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
-    background: #edcc61;
+    background-color: #edcc61;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -348,7 +356,7 @@ hr {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
     color: #f9f6f2;
-    background: #edc850;
+    background-color: #edc850;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -356,7 +364,7 @@ hr {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
     color: #f9f6f2;
-    background: #edc53f;
+    background-color: #edc53f;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
@@ -364,7 +372,7 @@ hr {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
-    background: #edc22e;
+    background-color: #edc22e;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
@@ -390,6 +398,7 @@ hr {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     transform: scale(1); } }
+
 @-moz-keyframes appear {
   0% {
     opacity: 0;
@@ -402,6 +411,7 @@ hr {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     transform: scale(1); } }
+
 @keyframes appear {
   0% {
     opacity: 0;
@@ -414,6 +424,7 @@ hr {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     transform: scale(1); } }
+
 .tile-new .tile-inner {
   -webkit-animation: appear 200ms ease 100ms;
   -moz-animation: appear 200ms ease 100ms;
@@ -437,6 +448,7 @@ hr {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     transform: scale(1); } }
+
 @-moz-keyframes pop {
   0% {
     -webkit-transform: scale(0);
@@ -452,6 +464,7 @@ hr {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     transform: scale(1); } }
+
 @keyframes pop {
   0% {
     -webkit-transform: scale(0);
@@ -467,6 +480,7 @@ hr {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     transform: scale(1); } }
+
 .tile-merged .tile-inner {
   z-index: 20;
   -webkit-animation: pop 200ms ease 100ms;
@@ -709,3 +723,55 @@ hr {
     margin-top: 90px !important; }
   .game-message .lower {
     margin-top: 30px !important; } }
+/********************************************/
+/* chimps customizations */
+/********************************************/
+.tile .tile-inner {
+  color: rgba(0, 0, 0, 0) !important; }
+
+.tile.tile-2 .tile-inner,
+.tile.tile-4 .tile-inner,
+.tile.tile-8 .tile-inner,
+.tile.tile-16 .tile-inner,
+.tile.tile-32 .tile-inner,
+.tile.tile-64 .tile-inner,
+.tile.tile-128 .tile-inner,
+.tile.tile-256 .tile-inner,
+.tile.tile-512 .tile-inner,
+.tile.tile-1024 .tile-inner,
+.tile.tile-2048 .tile-inner {
+  background-color: transparent;
+  background-position: center center; }
+
+.tile.tile-2 .tile-inner {
+  background-image: url("../img/2.png"); }
+
+.tile.tile-4 .tile-inner {
+  background-image: url("../img/4.png"); }
+
+.tile.tile-8 .tile-inner {
+  background-image: url("../img/8.png"); }
+
+.tile.tile-16 .tile-inner {
+  background-image: url("../img/16.png"); }
+
+.tile.tile-32 .tile-inner {
+  background-image: url("../img/32.png"); }
+
+.tile.tile-64 .tile-inner {
+  background-image: url("../img/64.png"); }
+
+.tile.tile-128 .tile-inner {
+  background-image: url("../img/128.png"); }
+
+.tile.tile-256 .tile-inner {
+  background-image: url("../img/256.png"); }
+
+.tile.tile-512 .tile-inner {
+  background-image: url("../img/512.png"); }
+
+.tile.tile-1024 .tile-inner {
+  background-image: url("../img/1024.png"); }
+
+.tile.tile-2048 .tile-inner {
+  background-image: url("../img/2048.png"); }

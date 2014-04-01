@@ -81,7 +81,7 @@
 	</section> <!-- End .main -->
 	<div class="overlay">
 		<div class="surprise">
-			
+			<!-- Do you try konami code? -->
 		</div><!-- End .surprise -->
 	</div>
 	<!-- Scripts -->

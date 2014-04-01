@@ -97,5 +97,19 @@
 	/********************************************/
 	.project.wayTwo .read-less {margin-bottom: 85px;}
 
+	/***********************************************************/
+	/* konami */
+	/***********************************************************/
+	.surprise {
+		width: 470px;
+		height: 470px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -235px;
+		margin-left: -235px;
+		background-color: rgba(161, 156, 145, 1)
+	}
+
 //End @media only screen and (min-width: 768px)
 }
