@@ -16,7 +16,7 @@ $tile-color: #eee4da;
 $tile-gold-color: #edc22e;
 $tile-gold-glow-color: lighten($tile-gold-color, 15%);
 
-$game-container-margin-top: 40px;
+$game-container-margin-top: 0;
 $game-container-background: #bbada0;
 
 $transition-speed: 100ms;
@@ -32,11 +32,7 @@ html, body {
 }
 
 body {
-  margin: 80px 0;
-}
-
-.heading {
-  @include clearfix;
+  margin: 0;
 }
 
 h1.title {
@@ -120,12 +116,14 @@ p {
   line-height: 1.65;
 }
 
+/*
 a {
   color: $text-color;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer;
 }
+*/
 
 strong {
   &.important {
@@ -330,7 +328,7 @@ hr {
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
   transition-property: transform;
-
+  
   $base: 2;
   $exponent: 1;
   $limit: 11;
@@ -371,7 +369,7 @@ hr {
       }
 
       // Set background
-      background: $mixed-background;
+      background-color: $mixed-background;
 
       // Add glow
       $glow-opacity: max($exponent - 4, 0) / ($limit - 4);
@@ -547,3 +545,50 @@ hr {
     }
   }
 }
+
+
+/********************************************/
+/* chimps customizations */
+/********************************************/
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.heading,
+.above-game,
+.game-explanation,
+hr,
+hr + p {
+  display: none;
+}
+
+.tile .tile-inner {color: rgba(0,0,0,0)!important;}
+
+.tile.tile-2 .tile-inner,
+.tile.tile-4 .tile-inner,
+.tile.tile-8 .tile-inner,
+.tile.tile-16 .tile-inner,
+.tile.tile-32 .tile-inner,
+.tile.tile-64 .tile-inner,
+.tile.tile-128 .tile-inner,
+.tile.tile-256 .tile-inner,
+.tile.tile-512 .tile-inner,
+.tile.tile-1024 .tile-inner,
+.tile.tile-2048 .tile-inner {
+	background-color: transparent;
+	background-position: center center;
+}
+   
+
+   .tile.tile-2 .tile-inner { background-image: url('../img/2.png');}
+   .tile.tile-4 .tile-inner { background-image: url('../img/4.png');}
+   .tile.tile-8 .tile-inner { background-image: url('../img/8.png');}
+  .tile.tile-16 .tile-inner { background-image: url('../img/16.png');}
+  .tile.tile-32 .tile-inner { background-image: url('../img/32.png');}
+  .tile.tile-64 .tile-inner { background-image: url('../img/64.png');}
+ .tile.tile-128 .tile-inner { background-image: url('../img/128.png');}
+ .tile.tile-256 .tile-inner { background-image: url('../img/256.png');}
+ .tile.tile-512 .tile-inner { background-image: url('../img/512.png');}
+.tile.tile-1024 .tile-inner { background-image: url('../img/1024.png');}
+.tile.tile-2048 .tile-inner { background-image: url('../img/2048.png');}

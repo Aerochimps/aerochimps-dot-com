@@ -7,6 +7,7 @@ $.ajaxSetup({ cache: true });
 			FB.init({
 				appId: '656312157738865', //  ID do site  604069822972920
 				channelUrl:  'http://aerochimps.com/channel.html' //'http://localhost/channel.html', 
+
 			});
 
 			$('#facebookShare').click(function(){

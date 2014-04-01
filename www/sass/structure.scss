@@ -201,7 +201,7 @@ input {outline: none;}
 }
 
 .people figure img {
-	transition: 0.3s ease-in-out all;
+	-moz-transition: 0.3s ease-in-out all;
 	height: 100%;
 }
 
@@ -571,6 +571,7 @@ label.error {
 /***********************************************************/
 /* Konami Code! */
 /***********************************************************/
+body.konami {overflow: hidden;}
 .overlay {display: none;}
 
 body.konami .overlay {
@@ -584,15 +585,12 @@ body.konami .overlay {
 	background: rgba(255,255,255, 0.8);
 }
 
-body.konami {overflow: hidden;}
-
 .surprise {
-	width: 470px;
-	height: 470px;
+	width: 280px;
+	height: 280px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-top: -235px;
-	margin-left: -235px;
-	background-color: rgba(161, 156, 145, 1)
+	margin-top: -140px;
+	margin-left: -140px;
 }
