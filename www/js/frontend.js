@@ -4,7 +4,7 @@ $(document).ready(function() {
 	//Konami Code
 	////////////////////////////////////////////////////
 	$.fn.konami = function(callback, code) {
-		if(code == undefined) code = "38,38,40,40,37,39,37,39,66,65"
+		if(code == undefined) code = "38,38" //38,38,40,40,37,39,37,39,66,65
 		return this.each(function() {
 			var kkeys = [];
 			$(this).keydown(function(e){
@@ -17,7 +17,8 @@ $(document).ready(function() {
 		});
 	}
 	$(window).konami(function(){
-		//Do something Cool! :D
+		$('body').addClass('konami');
+		//$( ".surprise" ).load( "" );
 	})
 
 	////////////////////////////////////////////////////
