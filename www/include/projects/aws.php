@@ -14,5 +14,5 @@
 				<img src="img/projects/aws.jpg" alt="AWS Journey screenshot" />
 			</figure>
 		</div><!-- End .illustrate -->
-	<!-- End .wrapper -->
+	</div><!-- End .wrapper -->
 </section><!-- End .project.aws -->
