@@ -9,12 +9,12 @@
 	</div><!-- End .viewNav -->
 	<nav class="mainNav close">
 		<ul id="menu">
-			<li id="chimps" class="sectionChimps active">Chimps</li>
-			<li id="team" class="sectionTeam">Time</li>
-			<li id="projects" class="sectionProjects">Projetos</li>
-			<li id="clients" class="sectionClients">Clientes</li>
-			<li id="contact" class="sectionContact">Contato</li>
-			<li id="blog" class="sectionBlog"><a href="https://medium.com/@Aerochimps" target="_blank">Blog</a></li>
+			<li id="sectionChimps" class="sectionChimps active">Chimps</li>
+			<li id="sectionTeam" class="sectionTeam">Time</li>
+			<li id="sectionProjects" class="sectionProjects">Projetos</li>
+			<li id="sectionClients" class="sectionClients">Clientes</li>
+			<li id="sectionContact" class="sectionContact">Contato</li>
+			<li id="sectionBlog" class="sectionBlog"><a href="https://medium.com/@Aerochimps" target="_blank">Blog</a></li>
 		</ul>
 	</nav>
 	<div class="wrapper">

@@ -21,29 +21,29 @@ scrollMenu = function(){
 	$(window).scroll(function() {
 			var $window = $(window);
 			var scroll_posicion = $window.scrollTop();
-			if (scroll_posicion < 400 && !$('li#chimps').hasClass('active')) {
+			if (scroll_posicion < 400 && !$('li#sectionChimps').hasClass('active')) {
 				unselectMenu();
-				selectMenu('li#chimps');
+				selectMenu('li#sectionChimps');
 			}
 
-			if (scroll_posicion >= team && scroll_posicion < projects && !$('li#team').hasClass('active')) {
+			if (scroll_posicion >= team && scroll_posicion < projects && !$('li#sectionTeam').hasClass('active')) {
 				unselectMenu();
-				selectMenu('li#team');
+				selectMenu('li#sectionTeam');
 			}
 
-			if (scroll_posicion >= projects && scroll_posicion < clients && !$('li#projects').hasClass('active')) {
+			if (scroll_posicion >= projects && scroll_posicion < clients && !$('li#sectionProjects').hasClass('active')) {
 				unselectMenu();
-				selectMenu('li#projects');
+				selectMenu('li#sectionProjects');
 			}
 
-			if (scroll_posicion >= clients && scroll_posicion < contact && !$('li#clients').hasClass('active')) {
+			if (scroll_posicion >= clients && scroll_posicion < contact && !$('li#sectionClients').hasClass('active')) {
 				unselectMenu();
-				selectMenu('li#clients');
+				selectMenu('li#sectionClients');
 			}
 
-			if (scroll_posicion >= contact && !$('li#clients').hasClass('contact')) {
+			if (scroll_posicion >= contact && !$('li#sectionClients').hasClass('contact')) {
 				unselectMenu();
-				selectMenu('li#contact');
+				selectMenu('li#sectionContact');
 			}
 
 			// console.log(scroll_posicion);
