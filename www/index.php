@@ -16,7 +16,8 @@
 	<meta name="author" content="Aerochimps" /> 
 	<meta name="classification" content="Internet" /> 
 	<meta name="rating" content="general" /> 
-	<meta name="copyright" content="Aerochimps" /> 
+	<meta name="dcterms.rights" content="Aerochimps" /> 
+	<meta name="dcterms.dateCopyrighted" content="2014" />
 	<meta name="revisit-after" content="1 month" />	 
 	<link rel="canonical" href="http://aerochimps.com/" /> 	
 
