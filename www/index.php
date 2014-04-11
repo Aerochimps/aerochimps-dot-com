@@ -13,13 +13,12 @@
 	<!-- <meta name="language" content="pt-br, en-us" /> -->
 	<meta name="description" content="Desenvolvemos aplicativos web e mobile, com soluções criativas e inovadoras, adequadas às necessidades do cliente e focadas no usuário." />
 	<meta name="keywords" content="web development, desenvolvimento web floripa, desenvolvimento de aplicativos floripa, web development brazil, mobile brazil, ux floripa, ux florianópolis, consultoria ux"/>
-	<meta name="author" content="Aerochimps" /> 
-	<meta name="classification" content="Internet" /> 
-	<meta name="rating" content="general" /> 
-	<meta name="dcterms.rights" content="Aerochimps" /> 
+	<meta name="author" content="Aerochimps" />
+	<meta name="rating" content="general" />
+	<meta name="dcterms.rights" content="Aerochimps" />
 	<meta name="dcterms.dateCopyrighted" content="2014" />
-	<meta name="revisit-after" content="1 month" />	 
-	<link rel="canonical" href="http://aerochimps.com/" /> 	
+	<meta name="revisit-after" content="1 month" />
+	<link rel="canonical" href="http://aerochimps.com/" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" media="screen" href="css/app.css"/>
