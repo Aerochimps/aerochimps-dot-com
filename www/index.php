@@ -1,0 +1,1 @@
+<?php header( 'Location: lang/pt-br/' ) ;?>
