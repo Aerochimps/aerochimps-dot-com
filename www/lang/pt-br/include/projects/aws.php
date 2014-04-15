@@ -11,7 +11,7 @@
 		</div><!-- End .description -->
 		<div class="illustrate">
 			<figure>
-				<img src="img/projects/aws.jpg" alt="AWS Journey screenshot" />
+				<img src="../../img/projects/aws.jpg" alt="AWS Journey screenshot" />
 			</figure>
 		</div><!-- End .illustrate -->
 	</div><!-- End .wrapper -->

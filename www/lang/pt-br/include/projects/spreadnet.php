@@ -10,7 +10,7 @@
 		</div><!-- End .description -->
 		<div class="illustrate">
 			<figure>
-				<img src="img/projects/spreadnet.jpg" alt="SPREADnet screenshot" />
+				<img src="../../img/projects/spreadnet.jpg" alt="SPREADnet screenshot" />
 			</figure>
 		</div><!-- End .illustrate -->
 	</div><!-- End .wrapper -->

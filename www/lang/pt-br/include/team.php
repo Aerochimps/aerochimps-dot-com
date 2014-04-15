@@ -3,7 +3,7 @@
 		<p class="intro">Somos um <strong>time</strong> de 3 amigos unidos pelo propósito de viver daquilo que gostamos.</p>
 		<div class="people marcela">
 			<figure>
-				<img src="img/team/cela.jpg" alt="Marcela Quint" />
+				<img src="../../img/team/cela.jpg" alt="Marcela Quint" />
 			</figure>
 			<h3>Marcela Quint</h3>
 			<h4>UX Designer</h4>
@@ -14,7 +14,7 @@
 	
 		<div class="people idmar">
 			<figure>
-				<img src="img/team/id.jpg" alt="Idmar Ramos Junior" />
+				<img src="../../img/team/id.jpg" alt="Idmar Ramos Junior" />
 			</figure>
 			<h3>Id</h3>
 			<h4>FrontEnd Developer</h4>
@@ -25,7 +25,7 @@
 	
 		<div class="people gustavo">
 			<figure>
-				<img src="img/team/gustavo.jpg" alt="Gustavo Maestri" />
+				<img src="../../img/team/gustavo.jpg" alt="Gustavo Maestri" />
 			</figure>
 			<h3>Gustavo Maestri</h3>
 			<h4>backend developer</h4>

@@ -10,7 +10,7 @@
 		</div><!-- End .description -->
 		<div class="illustrate">
 			<figure>
-				<img src="img/projects/way2.jpg" alt="Way2 Display screenshot" />
+				<img src="../../img/projects/way2.jpg" alt="Way2 Display screenshot" />
 			</figure>
 		</div><!-- End .illustrate -->
 	</div><!-- End .wrapper -->
