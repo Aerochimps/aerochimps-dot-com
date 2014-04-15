@@ -94,11 +94,7 @@ $(document).ready(function() {
 	////////////////////////////////////////////////////
 	//Read more in .project
 	////////////////////////////////////////////////////
-	$('.project .description').expander({
-	 slicePoint: 300,
-	 expandText: 'ver mais',
-	 userCollapseText: 'ver menos'
-	});
+	//Inside of /lang/LANG_FOLDER/js/frontEnd.js
 
 	////////////////////////////////////////////////////
 	//Only for Desktop

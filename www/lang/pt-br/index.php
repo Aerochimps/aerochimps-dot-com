@@ -54,5 +54,6 @@
 	</div>
 	<!-- Scripts -->
 	<?php include("../../include/scripts.php"); ?>
+	<?php include("include/locatedScripts.php"); ?>
 </body>
 </html>
