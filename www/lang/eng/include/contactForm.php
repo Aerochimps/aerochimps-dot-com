@@ -19,8 +19,8 @@
         $now = date('Y-m-d H:i:s');
         fputs($fp, $now ."\n". $headers . $subject ."\n". $body . "\n\n");
         fclose($fp);
-        echo 'Obrigado pelo seu contato!';
+        echo 'Thanks for your contact.';
     } else { 
-        echo 'Ops!! Nossos macacos não conseguiram enviar sua mensagem, tente novamente!'; 
+        echo 'Oops! Our monkeys were unable to send your message, please try again!'; 
     }
 ?>

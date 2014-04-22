@@ -6,3 +6,11 @@ $('.project .description').expander({
 	expandText: 'read more',
 	userCollapseText: 'read less'
 });
+
+////////////////////////////////////////////////////
+//Contact validation
+////////////////////////////////////////////////////
+jQuery.extend(jQuery.validator.messages, {
+	required: "This is a required field.",
+	email: "Is this really your email?",
+});
