@@ -1,6 +1,6 @@
 <section id="team" class="team">
 	<div class="wrapper">
-		<p class="intro">We are a <strong>team</strong> of three friends gathered by the purpose of living from what we love doing</p>
+		<p class="intro">We are a <strong>team</strong> of three friends gathered by the purpose of living from what we love doing.</p>
 		<div class="people marcela">
 			<figure>
 				<img src="../../img/team/cela.jpg" alt="Marcela Quint" />
@@ -8,7 +8,7 @@
 			<h3>Marcela Quint</h3>
 			<h4>UX Designer</h4>
 			<div class="description">
-				<p>B.A. in Graphic Design at UDESC, has worked with projects development in user experience and user interface design areas. At Aerochimps, her main goal is to design gorgeous and friendly web and mobile apps. On her spare time, she and her bicycle try to conquer the world.</p>
+				<p>B.A. in Graphic Design at UDESC, has worked with development projects in user experience and user interface design areas. At Aerochimps her main goal is to design gorgeous and friendly web and mobile apps. On her spare time she and her bicycle try to conquer the world.</p>
 			</div><!-- End .description -->
 		</div> <!-- End .people.marcela -->
 	
@@ -19,7 +19,7 @@
 			<h3>Id</h3>
 			<h4>FrontEnd Developer</h4>
 			<div class="description">
-				<p>Expert in interaction design and frontend development, lives between interfaces and code lines. He is master in HTML and CSS and his main objective at Aerochimps is to ensure the scalable and semantic infrastructure of the projects. Enjoys his free time listening to podcasts, driving on the road and dreaming about the day that he will drop everything to earn life playing videogame.</p>
+				<p>Expert in interaction design and frontend development, lives between interfaces and lines of code. He is master in HTML and CSS and his main objective at Aerochimps is to ensure the scalability and semantic integrity of our projects. In his free time he enjoys listening to podcasts, driving on the road and dreaming about the day that he will drop everything to earn life playing videogame.</p>
 			</div><!-- End .description -->
 		</div> <!-- End .people.idmar -->
 	
@@ -30,7 +30,7 @@
 			<h3>Gustavo Maestri</h3>
 			<h4>Backend Developer</h4>
 			<div class="description">
-				<p>BS in Computer Science at Unisul, has been working with software development for 13 years. Specialized in web softwares, he rules Java, Java for Android, JavaScript, Objective C and Lua languages. His role at Aerochimps is to spin the gear so everything should work as planned. When he is not owning at coding world, he gets some quality time with his family and to practice sports.</p>
+				<p>BS in Computer Science at Unisul, has been working with software development for 13 years. Specialized in web software, he rules Java, Java for Android, JavaScript, Objective C and Lua. His role at Aerochimps is to spin the gear so everything works as planned. When he is not owning at coding, he practice sports and enjoys quality time with his family.</p>
 			</div><!-- End .description -->
 		</div> <!-- End .people.gustavo -->
 	</div><!-- End .wrapper -->
