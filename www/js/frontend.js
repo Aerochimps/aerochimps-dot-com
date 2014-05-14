@@ -54,6 +54,14 @@ $(document).ready(function() {
 	});
 
 	////////////////////////////////////////////////////
+	//Switch language
+	////////////////////////////////////////////////////
+	$('.langSwitcher').click(function(){
+		$('.main').toggleClass('switcherOn');
+		$('.langSelector').toggleClass('active');
+	});
+
+	////////////////////////////////////////////////////
 	//Scroll to each section
 	////////////////////////////////////////////////////
 	$('.sectionChimps').click(function(){
@@ -94,11 +102,7 @@ $(document).ready(function() {
 	////////////////////////////////////////////////////
 	//Read more in .project
 	////////////////////////////////////////////////////
-	$('.project .description').expander({
-	 slicePoint: 300,
-	 expandText: 'ver mais',
-	 userCollapseText: 'ver menos'
-	});
+	//Inside of /lang/LANG_FOLDER/js/frontEnd.js
 
 	////////////////////////////////////////////////////
 	//Only for Desktop

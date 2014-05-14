@@ -81,6 +81,76 @@ input {outline: none;}
 .viewNav > img {height: 16px;}
 
 /***********************************************************/
+/* .langSwitcher */
+/***********************************************************/
+.langSwitcher {
+	position: absolute;
+	top: 20px;
+	right: 60px;
+	font-size: 10.5pt;
+	text-transform: uppercase;
+	line-height: 16px;
+	color: rgba(25, 196, 186, 1);
+	cursor: pointer;
+	z-index: 10;
+}
+
+/***********************************************************/
+/* .lagSelector */
+/***********************************************************/
+.langSelector {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 10;
+}
+
+.langSelector li {list-style: none;}
+
+.langSelector li a {
+	display: block;
+	padding: 0;
+	font-size: 0pt;
+	font-style: italic;
+	text-align: center;
+	font-weight: 100;
+	white-space: nowrap;
+	color: rgba(255,255,255, 1);
+	background-color: rgba(75, 210, 200, 1);
+	background-image: url("../img/stars.png");
+	border-bottom: 1px solid transparent;
+	opacity: 0;
+	transition: 0.3s ease-in-out all;
+}
+
+.langSelector li a:hover,
+.langSelector li a.active {
+	background-color: rgba(135, 225, 220, 1);
+	text-decoration: none;
+}
+
+.langSelector.active li a {
+	padding: 30px;
+	font-size: 24pt;
+	border-color: rgba(255,255,255, 1);
+	opacity: 1;
+}
+
+/***********************************************************/
+/*.switcherOn (add to .main when  .langSelector is visible)*/
+/***********************************************************/
+.main {margin-top: 0;}
+
+.main .mainNav,
+.main.switcherOn,
+.main.switcherOn .mainHeader {transition: 0.3s ease-in-out all;}
+
+.main.switcherOn {margin-top: 279px;}
+.main.switcherOn .mainHeader {top: 279px;}
+.main.switcherOn .mainNav {top: 279px;}
+
+/***********************************************************/
 /* .mainnav */
 /***********************************************************/
 .mainNav {

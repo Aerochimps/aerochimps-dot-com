@@ -1,7 +1,3 @@
-jQuery.extend(jQuery.validator.messages, {
-	required: "Campo obrigatório.",
-	email: "Esse é mesmo o seu email?",
-});
 $(function() {
 	$('#contactForm').bind('change keyup', function() {
 		if($('#contactForm').validate().checkForm()) {

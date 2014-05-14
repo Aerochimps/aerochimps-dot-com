@@ -1,0 +1,2 @@
+<meta name="description" content="We develop web and mobile apps with creative and innovative solutions, suitable to the client's needs and focused on the user experience." />
+	<meta name="keywords" content="web development, web development brasil, app development brasil, web development Brazil, mobile Brazil, UX Floripa, UX Florianópolis, UX consultancy, UX brazil"/>
