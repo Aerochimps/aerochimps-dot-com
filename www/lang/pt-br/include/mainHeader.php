@@ -3,7 +3,14 @@
 		<span class="vhide">Aerochimps</span>
 		<img src="../../img/logos/logo-name-a19c91.svg" alt="Aerochimps Loho"/>
 	</h1>
-	<p class="langSwitcher">Pt-br</p>
+
+	<p class="langSwitcher">pt-br</p>
+	<ul class="langSelector">
+		<li><a href="/lang/de/">Alemão</a></li>
+		<li><a href="/lang/eng/" >Inglês</a></li>
+		<li><a href="/lang/pt-br/" class="active" >Português do Brasil</a></li>
+	</ul><!-- End .langSwitcher -->
+
 	<div class="viewNav">
 		<img src="../../img/menuIcon.svg" alt="Mostrar/Esconder menu"/>
 		<span class="vhide">Mostrar/Esconder o menu</span>

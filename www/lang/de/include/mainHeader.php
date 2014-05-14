@@ -3,7 +3,14 @@
 		<span class="vhide">Aerochimps</span>
 		<img src="../../img/logos/logo-name-a19c91.svg" alt="Aerochimps Loho"/>
 	</h1>
+
 	<p class="langSwitcher">de</p>
+	<ul class="langSelector">
+		<li><a href="/lang/de/" class="active">Duits</a></li>
+		<li><a href="/lang/en/">Engels</a></li>
+		<li><a href="/lang/pt-br/">Portugees van Brazilië</a></li>
+	</ul><!-- End .langSwitcher -->
+
 	<div class="viewNav">
 		<img src="../../img/menuIcon.svg" alt="Mostrar/Esconder menu"/>
 		<span class="vhide">Anzeigen/Ausblenden des Menüs</span>
