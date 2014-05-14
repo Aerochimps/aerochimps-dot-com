@@ -7,7 +7,7 @@
 	<p class="langSwitcher">en</p>
 	<ul class="langSelector">
 		<li><a href="../de/">Deutsch</a></li>
-		<li><a href="../eng/" class="active" >English</a></li>
+		<li><a href="../en/" class="active" >English</a></li>
 		<li><a href="../pt-br/">Portuguese of Brazil</a></li>
 	</ul><!-- End .langSwitcher -->
 
