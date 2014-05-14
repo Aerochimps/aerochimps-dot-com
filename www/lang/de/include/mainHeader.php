@@ -3,6 +3,7 @@
 		<span class="vhide">Aerochimps</span>
 		<img src="../../img/logos/logo-name-a19c91.svg" alt="Aerochimps Loho"/>
 	</h1>
+	<p class="langSwitcher">de</p>
 	<div class="viewNav">
 		<img src="../../img/menuIcon.svg" alt="Mostrar/Esconder menu"/>
 		<span class="vhide">Anzeigen/Ausblenden des Menüs</span>
