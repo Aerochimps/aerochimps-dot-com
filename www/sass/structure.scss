@@ -106,7 +106,14 @@ input {outline: none;}
 	z-index: 10;
 }
 
-.langSelector li {list-style: none;}
+.langSelector li,
+.langSelector li a {transition: 0.3s ease-in-out all;}
+
+.langSelector li {
+	list-style: none;
+	background-color: rgba(25, 195, 185, 1);
+	opacity: 0;
+}
 
 .langSelector li a {
 	display: block;
@@ -117,11 +124,9 @@ input {outline: none;}
 	font-weight: 100;
 	white-space: nowrap;
 	color: rgba(255,255,255, 1);
-	background-color: rgba(75, 210, 200, 1);
+	background-color: rgba(255, 255, 255, 0.25);
 	background-image: url("../img/stars.png");
 	border-bottom: 1px solid transparent;
-	opacity: 0;
-	transition: 0.3s ease-in-out all;
 }
 
 .langSelector li a:hover,
@@ -129,6 +134,8 @@ input {outline: none;}
 	background-color: rgba(135, 225, 220, 1);
 	text-decoration: none;
 }
+
+.langSelector.active li {opacity: 1;}
 
 .langSelector.active li a {
 	padding: 15px;
