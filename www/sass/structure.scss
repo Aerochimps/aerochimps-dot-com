@@ -131,7 +131,7 @@ input {outline: none;}
 }
 
 .langSelector.active li a {
-	padding: 30px;
+	padding: 15px;
 	font-size: 24pt;
 	border-color: rgba(255,255,255, 1);
 	opacity: 1;
@@ -146,9 +146,9 @@ input {outline: none;}
 .main.switcherOn,
 .main.switcherOn .mainHeader {transition: 0.3s ease-in-out all;}
 
-.main.switcherOn {margin-top: 279px;}
-.main.switcherOn .mainHeader {top: 279px;}
-.main.switcherOn .mainNav {top: 279px;}
+.main.switcherOn {margin-top: 189px;}
+.main.switcherOn .mainHeader {top: 189px;}
+.main.switcherOn .mainNav {top: 189px;}
 
 /***********************************************************/
 /* .mainnav */
