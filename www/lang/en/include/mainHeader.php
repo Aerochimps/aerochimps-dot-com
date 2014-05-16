@@ -8,7 +8,7 @@
 	<ul class="langSelector">
 		<li><a href="../de/">Deutsch</a></li>
 		<li><a href="../en/" class="active" >English</a></li>
-		<li><a href="../pt-br/">Brazilian Portuguese</a></li>
+		<li><a href="../pt-br/">Português do Brasil</a></li>
 	</ul><!-- End .langSwitcher -->
 
 	<div class="viewNav">

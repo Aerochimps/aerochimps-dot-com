@@ -6,9 +6,9 @@
 
 	<p class="langSwitcher">de</p>
 	<ul class="langSelector">
-		<li><a href="../de/" class="active">Duits</a></li>
-		<li><a href="../en/">Engels</a></li>
-		<li><a href="../pt-br/">Portugees van Brazilië</a></li>
+		<li><a href="../de/" class="active">Deutsch</a></li>
+		<li><a href="../en/">English</a></li>
+		<li><a href="../pt-br/">Português do Brasil</a></li>
 	</ul><!-- End .langSwitcher -->
 
 	<div class="viewNav">
