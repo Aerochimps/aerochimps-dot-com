@@ -1,7 +1,7 @@
 <header class="mainHeader">
 	<h1>
 		<span class="vhide">Aerochimps</span>
-		<img src="../../img/logos/logo-name-a19c91.svg" alt="Aerochimps Loho"/>
+		<img src="../../img/logos/logo-name-a19c91.svg" alt="Aerochimps Logo"/>
 	</h1>
 
 	<p class="langSwitcher">en</p>
