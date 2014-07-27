@@ -4,7 +4,11 @@
 $('.project .description').expander({
 	slicePoint: 300,
 	expandText: 'read more',
-	userCollapseText: 'read less'
+	userCollapseText: 'read less',
+	expandEffect: 'fadeIn',
+	collapseEffect: 'fadeOut',
+	expandSpeed: 800,
+	collapseSpeed: 800
 });
 
 ////////////////////////////////////////////////////
