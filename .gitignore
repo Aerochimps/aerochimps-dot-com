@@ -3,6 +3,7 @@
 *.war
 *.ear
 .DS_Store
+cakefile
 
 # From the project #
 .sass-cache
