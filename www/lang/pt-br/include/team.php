@@ -8,7 +8,7 @@
 				</a>
 			</figure>
 			<h3>Marcela Quint</h3>
-			<h4>UX Designer</h4>
+			<h4>UX Designer Leader</h4>
 			<div class="description">
 				<p>Graduada em Design Gráfico pela UDESC, já trabalhou com desenvolvimento de projetos nas áreas de experiência do usuário e design de interface. Na Aerochimps, seu principal objetivo é projetar ótimos e amigáveis aplicativos web e mobile. Nas horas vagas, ela e sua bicicleta tentam conquistar o mundo.</p>
 			</div><!-- End .description -->
@@ -21,7 +21,7 @@
 				</a>
 			</figure>
 			<h3>Id<span class="vhide">mar Ramos Junior</span></h3>
-			<h4>FrontEnd Developer</h4>
+			<h4>FrontEnd Engineer Leader</h4>
 			<div class="description">
 				<p>Experiente em design de interação e desenvolvimento frontend, vive entre interfaces e linhas de código. É mestre em HTML e CSS e sua principal meta na Aerochimps é garantir a infraestrutura escalável e semântica dos projetos. Passa o tempo livre ouvindo podcasts, dirigindo na estrada e sonhando com o dia que largará tudo para ganhar a vida jogando video-game.</p>
 			</div><!-- End .description -->
@@ -34,7 +34,7 @@
 				</a>
 			</figure>
 			<h3>Gustavo Maestri</h3>
-			<h4>backend developer</h4>
+			<h4>Software Engineer Leader</h4>
 			<div class="description">
 				<p>Formado em Ciência da Computação pela Unisul, trabalha há 13 anos com desenvolvimento de softwares. É especializado em software para web e domina as linguagens Java, Java para Android, JavaScript, Objective C e Lua. Sua função na Aerochimps é fazer girar a engrenagem para que tudo funcione como o planejado. Quando não está dominando o mundo dos códigos, aproveita para curtir a família e praticar esportes.</p>
 			</div><!-- End .description -->
