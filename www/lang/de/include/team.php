@@ -3,7 +3,9 @@
 		<p class="intro">Wir sind ein <strong>Team</strong> von drei Freunden die zusammen gefunden haben um das zu tun was wir lieben und davon zu Leben. </p>
 		<div class="people marcela">
 			<figure>
-				<img src="../../img/team/cela.jpg" alt="Marcela Quint" />
+				<a href="http://linkedin.com/pub/marcela-quint/38/a31/6b9" target="_blank">
+					<img src="../../img/team/cela.jpg" alt="Marcela Quint" />
+				</a>
 			</figure>
 			<h3>Marcela Quint</h3>
 			<h4>UX Designer</h4>
@@ -14,7 +16,9 @@
 	
 		<div class="people idmar">
 			<figure>
-				<img src="../../img/team/id.jpg" alt="Idmar Ramos Junior" />
+				<a href="http://linkedin.com/in/idmarjr/" target="_blank">
+					<img src="../../img/team/id.jpg" alt="Idmar Ramos Junior" />
+				</a>
 			</figure>
 			<h3>Id</h3>
 			<h4>Frontend Entwickler</h4>
@@ -25,7 +29,9 @@
 	
 		<div class="people gustavo">
 			<figure>
-				<img src="../../img/team/gustavo.jpg" alt="Gustavo Maestri" />
+				<a href="http://linkedin.com/pub/gustavo-maestri/9/164/771" target="_blank">
+					<img src="../../img/team/gustavo.jpg" alt="Gustavo Maestri" />
+				</a>
 			</figure>
 			<h3>Gustavo Maestri</h3>
 			<h4>Backend Entwickler</h4>
