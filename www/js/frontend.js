@@ -118,7 +118,7 @@ $(document).ready(function() {
 	}
 	$(window).konami(function(){
 		$('body').addClass('konami');
-		$( ".surprise" ).load( "konami/2048/index.html" );
+		$( ".surprise" ).load( "../../konami/2048/index.html" );
 	})
 
 //Fim do Document Ready
