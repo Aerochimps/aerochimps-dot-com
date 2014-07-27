@@ -9,5 +9,12 @@ $('.project .description').expander({
 	collapseEffect: 'fadeOut',
 	expandSpeed: 800,
 	collapseSpeed: 800
-	
+});
+
+////////////////////////////////////////////////////
+//Contact validation
+////////////////////////////////////////////////////
+jQuery.extend(jQuery.validator.messages, {
+	required: "Esse campo é obrigatório.",
+	email: "Esse é mesmo o seu email?",
 });
