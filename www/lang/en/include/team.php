@@ -20,7 +20,7 @@
 					<img src="../../img/team/id.jpg" alt="Idmar Ramos Junior" />
 				</a>
 			</figure>
-			<h3>Id</h3>
+			<h3>Id<span class="vhide">mar Ramos Junior</span></h3>
 			<h4>FrontEnd Developer</h4>
 			<div class="description">
 				<p>Expert in interaction design and frontend development, lives between interfaces and lines of code. He is master in HTML and CSS and his main objective at Aerochimps is to ensure the scalability and semantic integrity of our projects. In his free time he enjoys listening to podcasts, driving on the road and dreaming about the day that he will drop everything to earn life playing videogame.</p>
