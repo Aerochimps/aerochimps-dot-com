@@ -39,5 +39,19 @@
 				<p>BS in Computer Science at Unisul, has been working with software development for 13 years. Specialized in web software, he rules Java, Java for Android, JavaScript, Objective C and Lua. His role at Aerochimps is to spin the gear so everything works as planned. When he is not owning at coding, he practice sports and enjoys quality time with his family.</p>
 			</div><!-- End .description -->
 		</div> <!-- End .people.gustavo -->
+		
+		<div class="people allan">
+			<figure>
+				<a href="http://linkedin.com/pub/allan-carneiro/9b/b67/5a9" target="_blank">
+					<img src="../../img/team/allan.jpg" alt="Allan Carneiro" />
+				</a>
+			</figure>
+			<h3>Allan Carneiro</h3>
+			<h4>Ux Designer</h4>
+			<div class="description">
+				<p>BA in Graphic Design at UDESC, loves to transform ideas into interfaces. His mission at Aerochimps is to supply sketches and prototypes with creativity to make the projects take off. In his spare time he enjoys waking up early to watch the sunrise and surfing.</p>
+			</div><!-- End .description -->
+		</div> <!-- End .people.gustavo -->
+
 	</div><!-- End .wrapper -->
 </section> <!-- End .team -->
