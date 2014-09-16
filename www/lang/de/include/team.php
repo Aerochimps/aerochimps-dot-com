@@ -40,7 +40,7 @@
 			</div><!-- End .description -->
 		</div> <!-- End .people.gustavo -->
 		
-		<div class="people gustavo">
+		<div class="people allan">
 			<figure>
 				<a href="http://linkedin.com/pub/gustavo-maestri/9/164/771" target="_blank">
 					<img src="../../img/team/allan.jpg" alt="Allan Carneiro" />
