@@ -1,6 +1,6 @@
 <section id="team" class="team">
 	<div class="wrapper">
-		<p class="intro">We are a <strong>team</strong> of three friends gathered by the purpose of living from what we love doing.</p>
+		<p class="intro">We are a <strong>team</strong> of four friends gathered by the purpose of living from what we love doing.</p>
 		<div class="people marcela">
 			<figure>
 				<a href="http://linkedin.com/pub/marcela-quint/38/a31/6b9" target="_blank">
@@ -49,9 +49,10 @@
 			<h3>Allan Carneiro</h3>
 			<h4>Ux Designer</h4>
 			<div class="description">
-				<p>BA in Graphic Design at UDESC, loves to transform ideas into interfaces. His mission at Aerochimps is to supply sketches and prototypes with creativity to make the projects take off. In his spare time he enjoys waking up early to watch the sunrise and surfing.</p>
+				<p>BA in Graphic Design at UDESC, loves to transform his ideas into user interfaces. His mission at Aerochimps is to supply sketches and prototypes with creativity to make the projects lift-off. In his spare time he enjoys surfing and waking up early to watch the sunrise.
+</p>
 			</div><!-- End .description -->
-		</div> <!-- End .people.gustavo -->
+		</div> <!-- End .people.allan -->
 
 	</div><!-- End .wrapper -->
 </section> <!-- End .team -->

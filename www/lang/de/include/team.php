@@ -39,5 +39,19 @@
 				<p>BS in Informatik an der Unisul, arbeitet seit 13 Jahren in der Software-Entwicklung. In Web-Software spezialisiert ist, dominiert er in Java, Android , JavaScript, Objective C und die Lua Programmiersprache. Seine Rolle bei Aerochimps ist, das Getriebe in Gang zu halten, so sollte alles wie geplant funktioniert. Wenn er nicht gerade Coded, treibt er aktiv Sport und genießt die Zeit mit seiner Familie.</p>
 			</div><!-- End .description -->
 		</div> <!-- End .people.gustavo -->
+		
+		<div class="people gustavo">
+			<figure>
+				<a href="http://linkedin.com/pub/gustavo-maestri/9/164/771" target="_blank">
+					<img src="../../img/team/allan.jpg" alt="Allan Carneiro" />
+				</a>
+			</figure>
+			<h3>Allan Carneiro</h3>
+			<h4>Ux Designer</h4>
+			<div class="description">
+				<p>BA Abschluss in Grafik-Design an der UDESC, liebt es seine Ideen in Benutzer Schnittstellen zu manifestieren/transformieren. Seine funktion/mission bei Aearochimps ist es, innovative Skizzen und Prototypen zu entwerfen um den Projekten zum richtigen start zu verhelfen. Zu seinen leidenschaften gehört das Surfen und früh aufzustehen um den Sonnenaufgang zu beobachten.</p>
+			</div><!-- End .description -->
+		</div> <!-- End .people.allan -->
+
 	</div><!-- End .wrapper -->
 </section> <!-- End .team -->
