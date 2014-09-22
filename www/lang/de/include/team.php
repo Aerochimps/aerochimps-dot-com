@@ -1,6 +1,6 @@
 <section id="team" class="team">
 	<div class="wrapper">
-		<p class="intro">Wir sind ein <strong>Team</strong> von drei Freunden die zusammen gefunden haben um das zu tun was wir lieben und davon zu Leben. </p>
+		<p class="intro">Wir sind ein <strong>Team</strong> von vier Freunden die zusammen gefunden haben um das zu tun was wir lieben und davon zu Leben. </p>
 		<div class="people marcela">
 			<figure>
 				<a href="http://linkedin.com/pub/marcela-quint/38/a31/6b9" target="_blank">
