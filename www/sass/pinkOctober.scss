@@ -1,0 +1,67 @@
+/*********************************************************************/
+/* pinkOctober.css */
+/*********************************************************************/
+
+/***********************************************************/
+/* General */
+/***********************************************************/
+a, a:visited {color: rgba(240,167,226, 1);}
+a:hover {color: rgba(216, 93, 192, 1);}
+
+::selection {background: rgba(252, 20, 205, 1);}
+::-moz-selection {background: rgba(252, 20, 205, 1);}
+
+/***********************************************************/
+/* .langSwitcher */
+/***********************************************************/
+.langSwitcher {color: rgba(240,167,226, 1);}
+
+/***********************************************************/
+/* .lagSelector */
+/***********************************************************/
+.langSelector li {background-color: rgba(240,167,226, 1);}
+
+.langSelector li a:hover,
+.langSelector li a.active {background-color: rgba(249, 207, 241, 1);}
+
+/***********************************************************/
+/* .mainnav */
+/***********************************************************/
+.mainNav li {color: rgba(240,167,226, 1);}
+
+/***********************************************************/
+/* .chimps */
+/***********************************************************/
+.chimps .banner {background-color: rgba(240,167,226, 1);}
+
+/***********************************************************/
+/* .contact */
+/***********************************************************/
+.contactForm input[type="text"],
+.contactForm input[type="email"],
+.contactForm textarea {border-bottom-color: rgba(240,167,226, 1);}
+
+.contactForm input[type="text"]:hover,
+.contactForm input[type="email"]:hover,
+.contactForm textarea:hover { border-bottom-color: rgba(216, 93, 192, 1)}
+
+.contactForm input[type="submit"],
+.contactForm button {background-color: rgba(240, 167, 226, 1);}
+
+.contactForm input[type="submit"][disabled="disabled"],
+.contactForm button[disabled="disabled"],
+.contactForm input[type="submit"][disabled="disabled"]:hover,
+.contactForm button[disabled="disabled"]:hover,
+.contactForm input[type="submit"][disabled="disabled"]:active,
+.contactForm button[disabled="disabled"]:active {background-color: rgba(167, 147, 157, 1);}
+
+.contactForm input[type="submit"]:hover,
+.contactForm button:hover,
+.contactForm input[type="submit"]:focus,
+.contactForm button:focus {background-color: rgba(216, 93, 192, 1);}
+
+.contactForm input[type="submit"]:active,
+.contactForm button:active {
+	box-shadow: 0 1px 0 rgba(240, 167, 226, 1) inset;
+	border-top: 1px solid rgba(240, 167, 226, 1);
+}
