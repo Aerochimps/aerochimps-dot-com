@@ -12,7 +12,7 @@
 	</ul><!-- End .langSwitcher -->
 
 	<div class="viewNav">
-		<img src="../../img/menuIcon.svg" alt="Mostrar/Esconder menu"/>
+		<img src="../../img/menuIcon_pink.svg" alt="Mostrar/Esconder menu"/>
 		<span class="vhide">Anzeigen/Ausblenden des Menüs</span>
 	</div><!-- End .viewNav -->
 	<nav class="mainNav close">
