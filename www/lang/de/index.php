@@ -2,6 +2,10 @@
 <html <?php include("include/lang.php"); ?>>
 <head>
 	<meta charset="utf-8"/>
+
+	<!-- Google Analytics -->
+	<?php include("../../include/analytics.php"); ?>
+
 	<title>Aerochimps - We make apps fly!</title>
 
 	<!--[if lte IE 8]>
@@ -31,9 +35,6 @@
 	<meta property="og:image" content="http://aerochimps.com/img/deviceIcons/aerochimps-facebook-icon.png"/>
 	<!-- Meta related to language -->
 	<?php include("include/metatagsFacebook.php"); ?>
-
-	<!-- Google Analytics -->
-	<?php include("../../include/analytics.php"); ?>
 </head>
 <body>
 	<section class="main">
