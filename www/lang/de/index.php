@@ -19,7 +19,7 @@
 	<meta name="dcterms.rights" content="Aerochimps" />
 	<meta name="dcterms.dateCopyrighted" content="2014" />
 	<meta name="revisit-after" content="1 month" />
-	<link rel="canonical" href="http://aerochimps.com/" />
+	<link rel="canonical" href="https://aerochimps.com/" />
 
 	<!-- Meta related to language -->
 	<?php include("include/metatags.php"); ?>
@@ -32,7 +32,7 @@
 
 	<!-- Facebook -->
 	<meta property="og:type" content="website"/>
-	<meta property="og:image" content="http://aerochimps.com/img/deviceIcons/aerochimps-facebook-icon.png"/>
+	<meta property="og:image" content="https://aerochimps.com/img/deviceIcons/aerochimps-facebook-icon.png"/>
 	<!-- Meta related to language -->
 	<?php include("include/metatagsFacebook.php"); ?>
 </head>

@@ -3,7 +3,7 @@
 		<p class="intro">Somos um <strong>time</strong> de quatro amigos unidos pelo propósito de viver daquilo que gostamos.</p>
 		<div class="people marcela">
 			<figure>
-				<a href="http://linkedin.com/pub/marcela-quint/38/a31/6b9" target="_blank">
+				<a href="https://linkedin.com/pub/marcela-quint/38/a31/6b9" target="_blank">
 					<img src="../../img/team/cela.jpg" alt="Marcela Quint" />
 				</a>
 			</figure>
@@ -16,7 +16,7 @@
 
 		<div class="people idmar">
 			<figure>
-				<a href="http://linkedin.com/in/idmarjr/" target="_blank">
+				<a href="https://linkedin.com/in/idmarjr/" target="_blank">
 					<img src="../../img/team/id.jpg" alt="Idmar Ramos Junior" />
 				</a>
 			</figure>
@@ -29,7 +29,7 @@
 
 		<div class="people gustavo">
 			<figure>
-				<a href="http://linkedin.com/pub/gustavo-maestri/9/164/771" target="_blank">
+				<a href="https://linkedin.com/pub/gustavo-maestri/9/164/771" target="_blank">
 					<img src="../../img/team/gustavo.jpg" alt="Gustavo Maestri" />
 				</a>
 			</figure>
@@ -42,7 +42,7 @@
 
 		<div class="people allan">
 			<figure>
-				<a href="http://linkedin.com/pub/allan-carneiro/9b/b67/5a9" target="_blank">
+				<a href="https://linkedin.com/pub/allan-carneiro/9b/b67/5a9" target="_blank">
 					<img src="../../img/team/allan.jpg" alt="Allan Carneiro" />
 				</a>
 			</figure>

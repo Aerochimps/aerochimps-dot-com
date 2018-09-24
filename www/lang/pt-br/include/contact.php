@@ -24,8 +24,8 @@
 		</form><!-- End #contactForm -->
 		<ul class="social">
 			<li><a href="mailto:contact@aerochimps.com"><i class="fa fa-envelope"></i>contact@aerochimps.com</a></li>
-			<li><a target="_blank" href="http://facebook.com/aerochimps"><i class="fa fa-facebook-square"></i>/aerochimps</a></li>
-			<li><a target="_blank" href="http://twitter.com/aerochimps"><i class="fa fa-twitter"></i>@aerochimps</a></li>
+			<li><a target="_blank" href="https://facebook.com/aerochimps"><i class="fa fa-facebook-square"></i>/aerochimps</a></li>
+			<li><a target="_blank" href="https://twitter.com/aerochimps"><i class="fa fa-twitter"></i>@aerochimps</a></li>
 		</ul><!-- End .social -->
 	</div><!-- End .wrapper -->
 </section> <!-- End .contact -->
