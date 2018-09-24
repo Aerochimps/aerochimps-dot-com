@@ -3,19 +3,19 @@
 		<p class="intro">Now that you already know us better, let's talk? Please <strong>contact</strong> us.</p>
 		<form id="contactForm" class="contactForm" method="POST" action="contactForm.php">
 			<div class="field">
-				<label class="vhide">Name:</label>
+				<label class="vhide" for="name">Name:</label>
 				<input id="name" type="text" name="name" placeholder="What is your name?">
 			</div><!-- End .field -->
 			<div class="field">
-				<label class="vhide">Email:</label>
+				<label class="vhide" for="email">Email:</label>
 				<input id="email" type="email" name="email" placeholder="What is your email?">
 			</div><!-- End .field -->
 			<div class="field">
-				<label class="vhide">Subject:</label>
+				<label class="vhide" for="subject">Subject:</label>
 				<input id="subject" type="text" name="subject" placeholder="What will we talk about?">
 			</div><!-- End .field -->
 			<div class="field">
-				<label class="vhide">Message:</label>
+				<label class="vhide" for="message">Message:</label>
 				<textarea id="message" name="message" placeholder="Write down your message and tell us how can we help you. :)"></textarea>
 			</div><!-- End .field -->
 			<div class="actions">
