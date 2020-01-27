@@ -18,7 +18,6 @@
 	<nav class="mainNav close">
 		<ul id="menu">
 			<li id="sectionChimps" class="sectionChimps active"><a href="#chimps">Chimps</a></li>
-			<li id="sectionTeam" class="sectionTeam"><a href="#team">Team</a></li>
 			<li id="sectionProjects" class="sectionProjects"><a href="#projetcs">Projects</a></li>
 			<li id="sectionClients" class="sectionClients"><a href="#clients">Clients</a></li>
 			<li id="sectionContact" class="sectionContact"><a href="#contact">Contact</a></li>
