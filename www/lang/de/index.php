@@ -41,7 +41,6 @@
 		<?php include("include/mainHeader.php"); ?>
 		<section class="content">
 			<?php include("include/chimps.php"); ?>
-			<?php include("include/team.php"); ?>
 			<?php include("include/projects.php"); ?>
 			<?php include("include/clients.php"); ?>
 			<?php include("include/contact.php"); ?>
