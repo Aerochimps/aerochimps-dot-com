@@ -312,12 +312,9 @@ input {outline: none;}
 /***********************************************************/
 /* .projects */
 /***********************************************************/
-.content  .projects {
-	padding-top: 45px;
-	background-color: rgba(241,227,122, 1);
-}
 
-.projects .intro {margin: 0 20px;}
+
+.projects .intro {margin: 45px 20px;}
 
 /********************************************/
 /* .project */
@@ -609,7 +606,7 @@ label.error {
 
 .contactForm .field.error ::-webkit-input-placeholder,
 .contactForm .error::-webkit-input-placeholder {
-	color: rgba(196, 25, 61, 1); 
+	color: rgba(196, 25, 61, 1);
 	border-bottom-color: rgba(196, 25, 61, 1);
 }
 
