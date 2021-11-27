@@ -3,6 +3,7 @@
 *.war
 *.ear
 .DS_Store
+.nova
 cakefile
 
 # From the project #
